@@ -71,13 +71,11 @@ INNER JOIN DimProductSubcategory
 GROUP BY ProductCategoryName
 ORDER BY COUNT(*) DESC
 
-/* As análises dos produtos permite concluirmos que:
-- Contoso é a marca que mais contém produtos com 710;
-- Regular é a classe que mais contém produtos com 1275;
-- Preta é a cor que mais contém produtos (602), seguido de Branco (505) e Prata (417);
-- A combinação da marca Contoso, da classe Regular e da cor Preta contém as maiores quantidades de produtos (84), seguido de Contoso, Regular e Branco com 80 produtos;
-- Computers Accessories é a subcategoria que mais possui produtos, com um total de 201;
-- Home Appliances é a categoria que mais contém produtos (661), seguida de Computers com 606 produtos.*/
+/* - Ao analisar os produtos da empresa Contoso, fica claro que a empresa concentra grande parte de seus produtos na própria marca Contoso, o que reforça uma estratégia voltada ao fortalecimento da marca interna. A classe Regular domina o mix de produtos, indicando que a maior parte da oferta está posicionada em um segmento mais acessível e de maior alcance.
+
+- Observando os atributos visuais, as cores Preta, Branca e Prata aparecem com maior frequência, o que sugere uma preferência por padrões mais neutros e comercialmente seguros. A combinação Contoso – Regular – Preta é a mais recorrente no portfólio, mostrando um padrão dominante dentro da estrutura de produtos.
+
+- Quando ampliamos a análise para categorias, percebe-se que Home Appliances e Computers concentram a maior quantidade de itens, enquanto Computer Accessories lidera entre as subcategorias. Isso indica que a empresa possui maior profundidade e variedade nas linhas relacionadas a tecnologia e eletrodomésticos, possivelmente refletindo o foco estratégico e o posicionamento comercial da operação.*/
 
 -- LOJAS
 -- Lojas abertas/fechadas
@@ -118,11 +116,11 @@ WHERE Status = 'On'
 GROUP BY RegionCountryName
 ORDER BY COUNT(*) DESC
 
-/* As análises das lojas permite concluirmos que:
-- Há 294 lojas ativas e 12 lojas inativas no sistema;
-- Store é o tipo de loja que apresenta a maior quantidade de lojas ativas;
-- O continente Norte-americano (North America) é o continente que apresenta a maior quantidade de lojas ativas;
-- Estados Unidos (United States) é o país que apresenta a maior quantidade de lojas ativas, justificando o motivo de a América do Norte ser o continente com mais lojas ativas.*/
+/* - A análise da estrutura de lojas mostra que a Contoso possui uma operação amplamente ativa, com 294 lojas em funcionamento e apenas 12 inativas, indicando estabilidade e presença consolidada no mercado.
+
+- Entre os formatos disponíveis, o modelo Store concentra a maior parte das lojas ativas, sugerindo que esse é o principal canal físico da empresa. Do ponto de vista geográfico, a América do Norte se destaca como a região com maior concentração de lojas, reforçando a importância estratégica desse mercado para a operação da Contoso.
+
+- Em nível de país, os Estados Unidos lideram em número de lojas ativas, o que ajuda a explicar a predominância da América do Norte no cenário geral. Esse padrão indica que a empresa possui maior maturidade operacional e presença comercial mais consolidada nesse mercado específico.*/
 
 -- CLIENTES
 -- Clientes físicos ou empresas
@@ -159,10 +157,11 @@ WHERE CustomerType = 'Person'
 GROUP BY Education, Gender
 ORDER BY COUNT(*) DESC
 
-/* As análises dos clientes permite concluirmos que:
-- Na empresa Contoso, a maioria dos clientes são pessoas físicas (Person) com 18484, em contrapartida com as 385 empresas (Company);
-- Dentre os clientes físicos, a maioria destes são do sexo Masculino com 9351 pessoas, contra 9133 do sexo feminino;
-- Analisando os níveis de escolaridade dos clientes físicos, a maioria são Bacharelado com 5356 pessoas, sendo 2728 homens e 2628 mulheres, seguido de Partial College com 5064 clientes, sendo 2542 mulheres e 2522 homens.*/
+/* - A análise da base de clientes mostra que a Contoso possui um perfil majoritariamente composto por pessoas físicas, que representam uma parcela significativamente maior em comparação às empresas. Isso indica que o foco principal da operação está direcionado ao consumidor final, e não ao mercado corporativo.
+
+- Entre os clientes pessoa física, observa-se uma distribuição relativamente equilibrada entre os gêneros, com leve predominância masculina. Esse equilíbrio sugere que os produtos da empresa possuem apelo amplo, sem concentração excessiva em um único perfil de público.
+
+- Em relação ao nível de escolaridade, a maioria dos clientes possui Bacharelado, seguida por clientes com Partial College, demonstrando um público com nível educacional intermediário a superior. Além disso, a distribuição entre homens e mulheres dentro dessas categorias é bastante equilibrada, o que reforça a diversidade do perfil de consumidores atendidos pela empresa.*/
 
 -- FUNCIONÁRIOS
 -- Funcionários ativos
@@ -189,7 +188,10 @@ WHERE Status = 'Current'
 GROUP BY DepartmentName
 ORDER BY COUNT(*) DESC
 
-/* As análises dos funcionários permite concluirmos que:
-- Na empresa Contoso, a maioria dos funcionários estão ativos na empresa com 287 contra apenas 6 funcionários inativos;
-- Dentre os funcionários ativos, a maioria destes são do sexo Masculino com 203 funcionários, contra 84 do sexo feminino;
-- Analisando os diferentes setores de atuação dos funcionários ativos, a maioria são da área de Produção (Production) com 176 funcionários.*/
+/* - A análise de funcionários indica que a Contoso mantém uma estrutura operacional amplamente ativa, com praticamente todo o quadro funcional em exercício e um número muito reduzido de colaboradores inativos. Esse cenário sugere estabilidade organizacional e baixo nível de rotatividade no período analisado.
+
+- Entre os funcionários ativos, observa-se predominância do gênero masculino, embora haja participação feminina relevante na composição da equipe. Essa distribuição pode refletir características específicas das áreas operacionais da empresa.
+
+- Ao observar os departamentos, nota-se forte concentração na área de Produção, que reúne a maior parte dos colaboradores ativos. Esse dado é coerente com o modelo de negócio da Contoso, indicando que a operação depende fortemente de atividades produtivas para sustentar seu negócio e volume de vendas.*/
+
+
