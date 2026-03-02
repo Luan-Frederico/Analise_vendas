@@ -72,6 +72,8 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 ## Resultados: Resumo das Análises e Estratégias
 
+- No geral, a empresa Contoso registrou um **lucro total de 7.048.761.007,11 bilhões de dólares**, indicando que a receita foi cerca de 7 bi. maior que o custo.
+
 ## Conclusão
 
 Este projeto demonstra como o **domínio de SQL e a aplicação de técnicas analíticas** permitem construir uma visão completa do desempenho empresarial — conectando dados operacionais a análises estratégicas.
