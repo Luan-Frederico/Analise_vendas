@@ -70,6 +70,8 @@ Toda a análise foi conduzida em SQL Server, utilizando a base Contoso:
 
 Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com cálculos estatísticos e operacionais diretamente via **SQL*, sem dependência de outras linguagens.
 
+## Resultados: Resumo das Análises e Estratégias
+
 ## Conclusão
 
 Este projeto demonstra como o **domínio de SQL e a aplicação de técnicas analíticas** permitem construir uma visão completa do desempenho empresarial — conectando dados operacionais a análises estratégicas.
