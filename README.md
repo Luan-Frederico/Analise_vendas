@@ -14,7 +14,7 @@ Para isso, buscou-se responder às seguintes questões:
 
 ### 1. Desempenho Geral
 
-- Qual é a receita total, o custo total e o lucro bruto da empresa?
+- Qual é a receita total, o custo total, o lucro bruto e a sua margem da empresa?
 
 - Como a receita e o lucro evoluíram ao longo do tempo (análise mensal e anual)?
 
