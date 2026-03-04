@@ -84,6 +84,8 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 - As vendas (receitas e lucros) apresentam uma clara diminuição a partir do ano de 2007. Em ambos os anos, as vendas aumentam após os 3 primeiros meses, em média, com pequenas flutuações nos meses subsequentes.
 
+### Produtos e Rentabilidade
+
 ## Conclusão
 
 Este projeto demonstra como o **domínio de SQL e a aplicação de técnicas analíticas** permitem construir uma visão completa do desempenho empresarial — conectando dados operacionais a análises estratégicas.
