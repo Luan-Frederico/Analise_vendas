@@ -68,7 +68,7 @@ Toda a análise foi conduzida em SQL Server, utilizando a base Contoso:
 
 - **CASE WHEN**: Para segmentações e classificações analíticas
 
-Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com cálculos estatísticos e operacionais diretamente via **SQL*, sem dependência de outras linguagens.
+Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com cálculos estatísticos e operacionais diretamente via **SQL**, sem dependência de outras linguagens.
 
 ## Resultados: Resumo das Análises e Principais Insights
 
