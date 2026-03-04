@@ -86,6 +86,16 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 ### Produtos e Rentabilidade
 
+- A subcategoria que mais contribi para a receita total da empresa são as **Filmadoras digitais (Camcorders)** com 1.335 trilhão de dólares, seguida dos **Projetores e Telas (Projectors and Screens)** com 1.107 tri. e as **Lavadoras e Secadores (Washers and Dryers)** com 1.066 trilhões.
+
+- Por outro lado, os produtos mais vendidos são os da categoria **Eletrônicos (Home Appliances)** com 3.992 trilhões de dólares de receita, seguido pelos **Computadores (Computers)** com 3.209 trilhões.
+
+- O produto que apresentou a maior margem de lucro foi **WWI Screen 125in M1611 White** com 66.85% de lucratividade, apesar de não ser o produto de maior receita. Além deste, há vários outros produtos que também possuem uma margem de lucro bastante elevada, na casa dos 66%, o que evidencia que a Contoso possui produtos altamente valiosos.
+
+- **Há muitos produtos que apresentam grandes quantidades vendidas, mas têm baixa rentabilidade.** Por exemplo, existe um produto que tem 107.090 unidades e 53.92% de lucro, e outro produto que tem 106.034 unidades, mas uma lucratividade de 66.76%. Isso mostra que um produto, mesmo com quase mil unidades a menos, pode ser mais rentável, pois o custo de produção pode ser menor.
+
+- A **performance das marcas varia entre volume de vendas e eficiência.** A Contoso se destaca por vender muito e ainda manter uma margem elevada, mostrando liderança sólida. Já Fabrikam e A. Datum chamam atenção pela maior margem de lucro, indicando maior eficiência e possível posicionamento mais estratégico. As demais marcas apresentam desempenho mais intermediário, com menor escala, mas margens relativamente estáveis.
+
 ## Conclusão
 
 Este projeto demonstra como o **domínio de SQL e a aplicação de técnicas analíticas** permitem construir uma visão completa do desempenho empresarial — conectando dados operacionais a análises estratégicas.
