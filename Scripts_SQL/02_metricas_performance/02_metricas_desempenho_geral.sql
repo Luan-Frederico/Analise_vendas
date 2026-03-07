@@ -1,8 +1,3 @@
-USE ContosoRetailDW
-
-/* O objetivo aqui é medir as métricas, para avaliar a performance do negócio e extrair insights estratégicos.
-(Perguntas de negócio)*/
-
 -- 1. DESEMPENHO GERAL
 
 -- Receita, custo e lucro total 
