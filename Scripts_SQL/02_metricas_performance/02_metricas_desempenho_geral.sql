@@ -1,3 +1,18 @@
+USE ContosoRetailDW
+
+/* O objetivo aqui é medir as métricas, para avaliar a performance do negócio e extrair insights estratégicos.
+(Perguntas de negócio)*/
+
+--SELECT * FROM DimProduct
+--SELECT TOP(100) * FROM FactSales
+--SELECT * FROM DimCurrency
+--SELECT DISTINCT CurrencyKey FROM FactSales - A tabela de vendas contém apenas 1 moeda, então não precisa agrupar pela moeda
+--SELECT * FROM DimDate
+--SELECT * FROM DimProductSubcategory
+--SELECT * FROM DimProductCategory
+--SELECT * FROM DimGeography
+--SELECT * FROM DimStore
+
 -- 1. DESEMPENHO GERAL
 
 -- Receita, custo e lucro total 
