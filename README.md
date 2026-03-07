@@ -34,7 +34,7 @@ Para isso, buscou-se responder às seguintes questões:
 
 ### 3. Análise Regional e por Lojas
 
-- Quais países e estados concentram maior faturamento e lucro?
+- Quais países e continentes concentram maior faturamento e lucro?
 
 - Quais lojas apresentam melhor desempenho em termos de margem?
 
@@ -95,6 +95,16 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 - **Há muitos produtos que apresentam grandes quantidades vendidas, mas têm baixa rentabilidade.** Por exemplo, existe um produto que tem 107.090 unidades e 53.92% de lucro, e outro produto que tem 106.034 unidades, mas uma lucratividade de 66.76%. Isso mostra que um produto, mesmo com quase mil unidades a menos, pode ser mais rentável, pois o custo de produção pode ser menor.
 
 - A **performance das marcas varia entre volume de vendas e eficiência.** A Contoso se destaca por vender muito e ainda manter uma margem elevada, mostrando liderança sólida. Já Fabrikam e A. Datum chamam atenção pela maior margem de lucro, indicando maior eficiência e possível posicionamento mais estratégico. As demais marcas apresentam desempenho mais intermediário, com menor escala, mas margens relativamente estáveis.
+
+### Análise regional e por Lojas
+
+- O continente **Norte-Americano (North America)** a região que registrou o **maior faturamento** com um total de 7.2 bilhões de dólares, além contar com o **maior lucro** (4.1 bi) e a **maior margem de lucro** com 56.91%.
+
+- **Estados Unidos (United States)** foi o país que apresentou o **maior faturamento** com um total de 7 bilhões de dólares, além de contar com o **maior lucro** (4 bi) e a segunda maior margem de lucro com 56.91%, ficando atrás de Canadá com 56.95%. Esse desempenho dos EUA justifica o motivo pelo qual o continente Norte-Americano obteve o melhor desempenho.
+
+- Dentre as 306 lojas, a **Contoso Thimphu No.1 Store** é a loja que teve a **maior margem de lucro** com 57.45%, tornando esta a loja mais rentável. Em contrapartida, também é uma das lojas que menos gera receita e lucro, pois provavelmente é uma empresa menor que as outras.
+
+- 
 
 ## Conclusão
 
