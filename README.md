@@ -50,11 +50,9 @@ Para isso, buscou-se responder às seguintes questões:
 
 - Existe diferença de comportamento de compra entre perfis de clientes?
 
-- Quais categorias são mais consumidas por determinados segmentos?
+## Estrutura analítica (SQL)
 
-## Estrutura analítica (SQL Server)
-
-Toda a análise foi conduzida em SQL Server, utilizando a base Contoso:
+Toda a análise foi conduzida em *SQL Server*, utilizando a base Contoso:
 
 - **SELECT e WHERE**: Para filtrar e projetar colunas relevantes.
 
@@ -64,8 +62,6 @@ Toda a análise foi conduzida em SQL Server, utilizando a base Contoso:
 
 - **CTE's**: Para organização modular das consultas
 
-- **Window Functions**: Para rankings e análises comparativas
-
 - **CASE WHEN**: Para segmentações e classificações analíticas
 
 Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com cálculos estatísticos e operacionais diretamente via **SQL**, sem dependência de outras linguagens.
@@ -74,45 +70,43 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 ### Desempenho geral
 
-- No geral, a empresa Contoso registrou uma **receita de 12.4 bilhões de dólares** e um **lucro total de 7.05 bilhões de dólares**.
+- Em geral, no período analisado, a Contoso registrou aproximadamente **US$ 12,4 bilhões em receita** e **US$ 7,05 bilhões em lucro**, mantendo uma **margem de lucro consistentemente acima de 55%.** Esse resultado indica um modelo de negócio bastante lucrativo, em que a receita supera significativamente os custos.
 
-- Todos os anos (2007, 2008 e 2009) obtiveram uma **margem de lucro bastante próxima e positiva**, com mais de 50% de lucro. Isso significa que, em média, a cada ano, a receita corresponde mais que o dobro do custo.
-
-- Já em termos de meses, no ano de 2007, a receita tende a ficar próxia de 400 bi, entretanto apresenta diminuições nos meses de junho, julho, agosto e setembro, com lucro oscilando perto de 200 bi. Em 2008, a receita sofre com variações, diminuições e aumentos, especialmente após a metade do ano, mas tende a ficar próxima dos 340 bi e lucro perto dos 200 bi. Por fim, em 2009, a receita varia em torno de 300 bi, com lucro em torno de 180 bi. 
-
-- As margens de lucro estão bem próximas quando analisadas por ano, com 56%, com esta variando de 56 a 57% nos meses em 2007 e 2008, porém indo de 55 a 57% em 2009.
-
-- As vendas (receitas e lucros) apresentam uma clara diminuição a partir do ano de 2007. Em ambos os anos, as vendas aumentam após os 3 primeiros meses, em média, com pequenas flutuações nos meses subsequentes.
+- Apesar da **forte rentabilidade**, observa-se uma leve tendência de queda nas vendas ao longo dos anos, com redução gradual na receita e no lucro após 2007. Ainda assim, o comportamento mensal das vendas mostra um padrão relativamente estável, com crescimento após os primeiros meses do ano e pequenas oscilações ao longo dos meses seguintes.
 
 ### Produtos e Rentabilidade
 
-- A subcategoria que mais contribi para a receita total da empresa são as **Filmadoras digitais (Camcorders)** com 1.335 trilhão de dólares, seguida dos **Projetores e Telas (Projectors and Screens)** com 1.107 tri. e as **Lavadoras e Secadores (Washers and Dryers)** com 1.066 trilhões.
+- Algumas subcategorias concentram grande parte do faturamento da empresa, com destaque para **Camcorders, Projectors and Screens e Washers and Dryers**, que aparecem entre os produtos que mais geram receita.
 
-- Por outro lado, os produtos mais vendidos são os da categoria **Eletrônicos (Home Appliances)** com 3.992 trilhões de dólares de receita, seguido pelos **Computadores (Computers)** com 3.209 trilhões.
+- Em nível mais amplo, as categorias **Home Appliances e Computers** lideram o faturamento total, reforçando seu papel como os principais motores de vendas da Contoso.
 
-- O produto que apresentou a maior margem de lucro foi **WWI Screen 125in M1611 White** com 66.85% de lucratividade, apesar de não ser o produto de maior receita. Além deste, há vários outros produtos que também possuem uma margem de lucro bastante elevada, na casa dos 66%, o que evidencia que a Contoso possui produtos altamente valiosos.
+- A análise também mostra que **alto volume de vendas nem sempre significa maior rentabilidade.** Alguns produtos vendem muito, mas possuem margens menores, enquanto outros apresentam menor volume de vendas, porém maior lucratividade. Isso sugere que fatores como custos de produção, posicionamento de mercado e estratégia de preços influenciam fortemente o desempenho financeiro dos produtos.
 
-- **Há muitos produtos que apresentam grandes quantidades vendidas, mas têm baixa rentabilidade.** Por exemplo, existe um produto que tem 107.090 unidades e 53.92% de lucro, e outro produto que tem 106.034 unidades, mas uma lucratividade de 66.76%. Isso mostra que um produto, mesmo com quase mil unidades a menos, pode ser mais rentável, pois o custo de produção pode ser menor.
-
-- A **performance das marcas varia entre volume de vendas e eficiência.** A Contoso se destaca por vender muito e ainda manter uma margem elevada, mostrando liderança sólida. Já Fabrikam e A. Datum chamam atenção pela maior margem de lucro, indicando maior eficiência e possível posicionamento mais estratégico. As demais marcas apresentam desempenho mais intermediário, com menor escala, mas margens relativamente estáveis.
+- Em relação às marcas, a **Contoso se destaca pelo grande volume de vendas**, demonstrando forte presença no mercado. Por outro lado, marcas como Fabrikam e A. Datum apresentam margens de lucro mais elevadas, indicando maior eficiência ou posicionamento mais estratégico.
 
 ### Análise regional e por Lojas
 
-- O continente **Norte-Americano (North America)** é a região que registrou o **maior faturamento** com um total de 7.2 bilhões de dólares, além contar com o **maior lucro** (4.1 bi) e a **maior margem de lucro** com 56.91%.
+- A **América do Norte domina o desempenho global**, concentrando o maior volume de vendas, receita e lucro. Esse resultado é fortemente impulsionado pelos **Estados Unidos**, que representam a maior parte das vendas da empresa.
 
-- **Estados Unidos (United States)** foi o país que apresentou o **maior faturamento** com um total de 7 bilhões de dólares, além de contar com o **maior lucro** (4 bi) e a segunda maior margem de lucro com 56.91%, ficando atrás de Canadá com 56.95%. Esse desempenho dos EUA justifica o motivo pelo qual o continente Norte-Americano obteve o melhor desempenho.
+- Apesar de a margem de lucro ser semelhante entre os países (em torno de 56%), existe grande diferença no volume de vendas. Os **Estados Unidos vendem cerca de quatro vezes mais produtos que o segundo maior mercado, demonstrando forte concentração geográfica da demanda.**
 
-- Dentre as 306 lojas, a **Contoso Thimphu No.1 Store** é a loja que teve a **maior margem de lucro** com 57.45%, tornando esta a loja mais rentável. Em contrapartida, também é uma das lojas que menos gera receita e lucro, pois pode ser que seja uma empresa menor que as outras.
+- Entre as **lojas, algumas apresentam alta rentabilidade mesmo com menor volume de vendas**, indicando que nem sempre as unidades mais lucrativas são as que geram maior faturamento.
 
-- Em termos de quantidade de produtos vedidos, **América do Norte** é o continente com o **maior volume de vendas**, com um total de 30 milhões de unidades, e é a região que gera **maior rentabilidade** com margem de lucro de 56.91%. Por outro lado, a Ásia contém um maior volume de produtos vendidos em relação ao continente Europeu, porém é menos rentável, com uma margem de lucro inferior à da Europa.
-
-- Referindo-se à **nacionalidade**, todos os países apresentam uma margem de lucro em torno de 56%, com o Canadá tendo a maior, porém há uma discrpância enorme em relação a quantidade de unidades vendidas, com o Estados Unidos registrando quatro vezes mais vendas que o segundo país com mais produtos vendidos, China, embora apresentando uma margem bastante próxima a do Canadá.
-
-- Em relação às **vendas por continentes ao longo dos anos**, observa-se que os EUA apresenta uma queda brusca de desempenho, reduzindo as receitas, lucro e margem de lucro. Já a Ásia apresenta uma tendência de crescimento na receita e lucro, porém com diminuição na margem de lucro, o que pode ser explicado pelo aumento no custo. A Europa tem uma situação semelhante ao do EUA, com diminuição na receita e lucro, com uma margem variando, ora aumenta ora dimunui. Complementando com uma análise mensal, EUA registrou aumento geral nas receitas e lucros, e instabilidade na margem ao longo dos anos. Ásia registrou aumento instável nas receitas e lucros, com uma menor instabilidade que EUA. Já a Europa apresentou bastante instabilidade na receita, com aumentos e diminuições bruscas, o lucro tende a diminuir aos poucos com leves oscilações, e a margem permanece com variações mais constantes.
-
+- Observando a evolução ao longo do tempo, percebe-se **queda nas vendas na América do Norte e na Europa**, enquanto a **Ásia apresenta crescimento em receita e lucro, porém com redução na margem**, possivelmente devido ao aumento de custos.
+- 
 ### Perfil de Clientes
 
+*Para analisar o perfil dos clientes, dividi estes em diversas segmentações (grupos) e realizei as análises cruzando as vendas onlines (cuja tabela possui uma ligação com a tabela dos clientes) com as segmentações de clientes:*
 
+- A análise do perfil de clientes revela **diferenças claras no comportamento de compra entre os segmentos.**
+
+- Clientes **Pessoa física** apresentam ticket médio maior que empresas, enquanto entre os consumidores individuais, **mulheres** possuem ticket médio ligeiramente superior ao dos homens.
+
+- Em termos socioeconômicos, clientes de **renda média e média alta**, bem como **profissionais em cargos de gestão ou ocupações especializadas**, apresentam maior valor médio por compra, indicando maior poder de consumo.
+
+- Já em relação à **receita total**, alguns segmentos se destacam pelo alto volume de compras, enquanto outros realizam menos transações, mas com maior valor por compra, gerando receita e lucro relevantes mesmo com menor frequência.
+
+Esses resultados mostram que diferentes perfis de clientes contribuem para o desempenho do negócio de maneiras distintas, seja pelo volume de compras ou pelo maior valor gasto em cada transação.
 
 ## Conclusão
 
