@@ -93,7 +93,7 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 - Entre as **lojas, algumas apresentam alta rentabilidade mesmo com menor volume de vendas**, indicando que nem sempre as unidades mais lucrativas são as que geram maior faturamento.
 
 - Observando a evolução ao longo do tempo, percebe-se **queda nas vendas na América do Norte e na Europa**, enquanto a **Ásia apresenta crescimento em receita e lucro, porém com redução na margem**, possivelmente devido ao aumento de custos.
-- 
+
 ### Perfil de Clientes
 
 *Para analisar o perfil dos clientes, dividi estes em diversas segmentações (grupos) e realizei as análises cruzando as vendas onlines (cuja tabela possui uma ligação com a tabela dos clientes) com as segmentações de clientes:*
