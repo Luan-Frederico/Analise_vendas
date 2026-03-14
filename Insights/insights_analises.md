@@ -1,6 +1,7 @@
 # Análise Estratégica de Vendas - Contoso
 
-Este documento apresenta os principais **insights** obtidos a partir da análise das vendas da empresa de varejo Contoso. 
+Este documento apresenta os principais **insights** obtidos a partir da análise das vendas da empresa de varejo Contoso.
+
 A análise foi realizada utilizando **SQL**, resultando em **descobertas estratégicas** para compreender melhor o desempenho do negócio, o comportamento de vendas de produtos, a distribuição regional das vendas e as características dos diferentes perfis de clientes.
 
 ### Desempenho geral 
