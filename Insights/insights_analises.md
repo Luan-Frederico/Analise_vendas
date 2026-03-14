@@ -30,7 +30,7 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 - As vendas (receitas e lucros) apresentam uma clara **diminuição** a partir do ano de 2007. Em ambos os anos, as vendas aumentam após os 3 primeiros meses, em média, com pequenas flutuações nos meses subsequentes.
 
-## 2.Produtos e Rentabilidade
+## 2. Produtos e Rentabilidade
 
 ### Receitas por Categorias e subcategorias
 
@@ -76,7 +76,7 @@ Por outro lado, os produtos mais vendidos são os da categoria **Eletrônicos (H
 
 ## 4.Perfil de Clientes 
 
-### Segmentos de clientes por Ticket médio?
+### Segmentos de clientes por Ticket médio
 
 Para analisar os perfis dos clientes, dividi estes em várias segmentações/grupo demográfico e selecionei as mais relevantes para o problema de negócio, que são: Tipo de cliente, Gênero, Renda, Idade e Ocupação.
 
