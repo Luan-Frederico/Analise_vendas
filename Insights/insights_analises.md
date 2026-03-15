@@ -30,7 +30,7 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 #### Mensal
 
-      | Ano 2007                        |
+| Ano 2007                              |
 |-----|-------------------|-------------|
 | Mês | Faturamento (US$) | Lucro (US$) |
 |:----|------------------:|------------:|
@@ -46,6 +46,7 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 | Outubro |
 | Novembro |
 | Dezembro |
+
 - Já em termos de meses, no ano de 2007, a receita tende a ficar próxia de 400 bi, entretanto apresenta diminuições nos meses de junho, julho, agosto e setembro, com lucro oscilando perto de 200 bi. Em 2008, a receita sofre com variações, diminuições e aumentos, especialmente após a metade do ano, mas tende a ficar próxima dos 340 bi e lucro perto dos 200 bi. Por fim, em 2009, a receita varia em torno de 300 bi, com lucro em torno de 180 bi.
 
 ### Comportamento da margem de lucro
