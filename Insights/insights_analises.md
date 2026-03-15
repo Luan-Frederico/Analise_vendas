@@ -17,16 +17,33 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 - **Margem = 56.78%** -> Indica que, a cada US$ 100 faturados, US$ 56.78 viram lucro.
 - Rentabilidade **excelente**.
 
-### Receita e Lucro ao longo do tempo (mensal e anual)
+### Receita e Lucro ao longo do tempo 
+#### Anual
 
-| Indicador | Valor (US$) |
-|-----------|-------------|
-| Faturamento | 
-| Custo |
-| Lucro |
-| Margem de lucro |
+| Ano | Faturamento (US$) | Custo (US$) | Lucro (US$) | Margem (%) |
+|:----|------------------:|------------:|------------:|-----------:|
+| 2007 | 4.561.940.955,02 | 1.966.906.968,81 | 2.595.033.986,21 | 56.88% |
+| 2008 | 4.111.233.534,68 | 1.773.348.839,62 | 2.337.884.695,06 | 56.87% |
+| 2009 | 3.740.483.119,18 | 1.624.640.793,35 | 2.115.842.325,83 | 56.57% |
 
-- Todos os anos (2007, 2008 e 2009) obtiveram uma **margem de lucro bastante próxima e positiva**, com mais de 50% de lucro. Isso significa que, em média, a cada ano, a receita corresponde mais que o dobro do custo.
+- Todos os anos obtiveram uma **margem de lucro bastante próxima e positiva**, acima de 50%. Isso significa que, em média, a cada ano, mais da metade da receita total se converte em lucro. Em termos mais simples, a receita corresponde a mais que o dobro do custo, em média.
+
+#### Mensal
+
+| Mês | Faturamento (US$) | Custo (US$) | Lucro (US$) | Margem (%) |
+|:----|------------------:|------------:|------------:|-----------:|
+| Janeiro |
+| Fevereiro |
+| Março |
+| Abril |
+| Maio |
+| Junho |
+| Julho |
+| Agosto |
+| Setembro |
+| Outubro |
+| Novembro |
+| Dezembro |
 - Já em termos de meses, no ano de 2007, a receita tende a ficar próxia de 400 bi, entretanto apresenta diminuições nos meses de junho, julho, agosto e setembro, com lucro oscilando perto de 200 bi. Em 2008, a receita sofre com variações, diminuições e aumentos, especialmente após a metade do ano, mas tende a ficar próxima dos 340 bi e lucro perto dos 200 bi. Por fim, em 2009, a receita varia em torno de 300 bi, com lucro em torno de 180 bi.
 
 ### Comportamento da margem de lucro
