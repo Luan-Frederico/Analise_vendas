@@ -30,8 +30,8 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 #### Mensal
 
-| Mês | Faturamento (US$) | Custo (US$) | Lucro (US$) | Margem (%) |
-|:----|------------------:|------------:|------------:|-----------:|
+| Mês | Faturamento (US$) | Lucro (US$) |
+|:----|------------------:|------------:|
 | Janeiro |
 | Fevereiro |
 | Março |
