@@ -30,6 +30,8 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 #### Mensal
 
+      | Ano 2007                        |
+|-----|-------------------|-------------|
 | Mês | Faturamento (US$) | Lucro (US$) |
 |:----|------------------:|------------:|
 | Janeiro |
