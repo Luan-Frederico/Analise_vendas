@@ -30,22 +30,20 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 #### Mensal
 
-| Ano 2007                              |
-|-----|-------------------|-------------|
-| Mês | Faturamento (US$) | Lucro (US$) |
-|:----|------------------:|------------:|
-| Janeiro |
-| Fevereiro |
-| Março |
-| Abril |
-| Maio |
-| Junho |
-| Julho |
-| Agosto |
-| Setembro |
-| Outubro |
-| Novembro |
-| Dezembro |
+| Mês | Faturamento 2007 | Lucro 2007 | Faturamento 2008 | Lucro 2008 | Faturamento 2009 | Lucro 2009 |
+|:----|-----------------:|-----------:|-----------------:|-----------:|-----------------:|-----------:|
+| Janeiro | 269.835.263,23 | 152.435.853,61 |
+| Fevereiro | 298.215.968,35 | 168.348.082,39 |
+| Março | 300.486.926,90 | 168.881.450,73 |
+| Abril | 400.160.331,60 | 227.152.486,91 |
+| Maio | 423.429.127,79 | 241.117.883,31 |
+| Junho | 409.797.545,55 | 233.706.512,91 |
+| Julho | 389.617.372,27 | 221.739.911,76 |
+| Agosto | 388.429.827,11 | 222.449.277,97 |
+| Setembro | 379.144.599,56 | 217.171.684,71 |
+| Outubro | 423.213.240,84 | 244.414.205,91 |
+| Novembro | 453.750.209,24 | 257.467.904,55 |
+| Dezembro | 425.860.542,57 | 240.148.731,44 |
 
 - Já em termos de meses, no ano de 2007, a receita tende a ficar próxia de 400 bi, entretanto apresenta diminuições nos meses de junho, julho, agosto e setembro, com lucro oscilando perto de 200 bi. Em 2008, a receita sofre com variações, diminuições e aumentos, especialmente após a metade do ano, mas tende a ficar próxima dos 340 bi e lucro perto dos 200 bi. Por fim, em 2009, a receita varia em torno de 300 bi, com lucro em torno de 180 bi.
 
