@@ -26,27 +26,29 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 | 2008 | 4.111.233.534,68 | 1.773.348.839,62 | 2.337.884.695,06 | 56.87% |
 | 2009 | 3.740.483.119,18 | 1.624.640.793,35 | 2.115.842.325,83 | 56.57% |
 
-- Todos os anos obtiveram uma **margem de lucro bastante próxima e positiva**, acima de 50%. Isso significa que, em média, a cada ano, mais da metade da receita total se converte em lucro. Em termos mais simples, a receita corresponde a mais que o dobro do custo, em média.
+- Todos os anos apresentaram **margens de lucro bastante próximas e elevadas**, acima de 50%. Isso significa que, em média, a cada ano, **mais da metade da receita total se converte em lucro.** Em termos práticos, isso indica que a **receita anual é mais que o dobro dos custos**, evidenciando uma operação altamente rentável e lucrativa e eficiente no controle de custos.
 
 #### Mensal
 
 | Mês | Faturamento 2007 | Lucro 2007 | Faturamento 2008 | Lucro 2008 | Faturamento 2009 | Lucro 2009 |
 |:----|-----------------:|-----------:|-----------------:|-----------:|-----------------:|-----------:|
-| Janeiro | 269.835.263,23 | 152.435.853,61 |
-| Fevereiro | 298.215.968,35 | 168.348.082,39 |
-| Março | 300.486.926,90 | 168.881.450,73 |
-| Abril | 400.160.331,60 | 227.152.486,91 |
-| Maio | 423.429.127,79 | 241.117.883,31 |
-| Junho | 409.797.545,55 | 233.706.512,91 |
-| Julho | 389.617.372,27 | 221.739.911,76 |
-| Agosto | 388.429.827,11 | 222.449.277,97 |
-| Setembro | 379.144.599,56 | 217.171.684,71 |
-| Outubro | 423.213.240,84 | 244.414.205,91 |
-| Novembro | 453.750.209,24 | 257.467.904,55 |
-| Dezembro | 425.860.542,57 | 240.148.731,44 |
+| Janeiro | 269.835.263,23 | 152.435.853,61 | 279.460.806,88 | 157.654.297,44 | 269.770.345,06 | 150.789.792,21 |
+| Fevereiro | 298.215.968,35 | 168.348.082,39 | 288.852.634,02 | 163.600.895,88 | 266.002.676,16 | 149.804.385,69 |
+| Março | 300.486.926,90 | 168.881.450,73 | 290.060.560,62 | 164.250.374,14 | 270.769.957,91 | 153.190.277,27 |
+| Abril | 400.160.331,60 | 227.152.486,91 | 356.139.170,42 | 202.523.857,25 | 309.157.751,21 | 176.909.482,68 |
+| Maio | 423.429.127,79 | 241.117.883,31 | 351.096.953,11 | 200.855.540,28 | 341.560.286,15 | 196.375.164,31 |
+| Junho | 409.797.545,55 | 233.706.512,91 | 338.132.827,24 | 193.869.510,32 | 331.299.978,98 | 190.722.186,32 |
+| Julho | 389.617.372,27 | 221.739.911,76 | 386.024.197,67 | 220.250.241,69 | 333.374.435,16 | 187.934.296,46 |
+| Agosto | 388.429.827,11 | 222.449.277,97 | 359.938.153,68 | 204.727.275,34 | 325.030.342,96 | 183.985.007,60 |
+| Setembro | 379.144.599,56 | 217.171.684,71 | 353.421.976,71 | 201.660.738,84 | 313.780.340,43 | 177.702.897,25 |
+| Outubro | 423.213.240,84 | 244.414.205,91 | 326.256.367.86 | 187.509.060,51 | 326.836.387,93 | 189.019.428,25 |
+| Novembro | 453.750.209,24 | 257.467.904,55 | 383.063.713,52 | 215.866.234,36 | 322.166.203,77 | 177.344.106,51 |
+| Dezembro | 425.860.542,57 | 240.148.731,44 | 398.786.172,94 | 225.116.669,00 | 330.734.413,46 | 182.065.301,28 |
 
-- Já em termos de meses, no ano de 2007, a receita tende a ficar próxia de 400 bi, entretanto apresenta diminuições nos meses de junho, julho, agosto e setembro, com lucro oscilando perto de 200 bi. Em 2008, a receita sofre com variações, diminuições e aumentos, especialmente após a metade do ano, mas tende a ficar próxima dos 340 bi e lucro perto dos 200 bi. Por fim, em 2009, a receita varia em torno de 300 bi, com lucro em torno de 180 bi.
-
+- **2007:** Foi o ano com melhor desempenho geral, mantendo faturamento e lucro altos na maior parte dos meses. No meio do ano há uma pequena queda, sugerindo um possível efeito de sazonalidade ou uma redução temporária na demanda, o que pode indicar oportunidades para estratégias de estímulo às vendas nesse intervalo.
+- **2008:** Os resultados passam a oscilar mais ao longo do ano, com sinais de enfraquecimento após o primeiro semestre. Isso sugere um período de maior instabilidade no desempenho. Esse comportamento pode indicar um ambiente econômico menos favorável ou mudanças no mercado, reforçando a importância de monitoramento contínuo de custos e desempenho operacional ao longo do ano.
+- **2009:** O faturamento e o lucro ficam em um nível mais baixo em relação aos anos anteriores, mas os resultados se mostram mais estáveis ao longo dos meses, indicando um possível período de ajuste após as oscilações anteriores.
+- 
 ### Comportamento da margem de lucro
 
 - As margens de lucro estão bem próximas quando analisadas por ano, com 56%, com esta variando de 56 a 57% nos meses em 2007 e 2008, porém indo de 55 a 57% em 2009. Isso indica um **ótimo desempenho** anual.
