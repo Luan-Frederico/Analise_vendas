@@ -59,11 +59,11 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 - **2007:** A margem de lucro se mantém bastante estável ao longo do ano, sempre próxima de 56–57%. Isso indica boa consistência na rentabilidade e sugere um controle eficiente dos custos mesmo com variações no faturamento.
 - **2008:** A margem apresenta um crescimento gradual até meados do ano, atingindo seu ponto mais alto por volta de junho. A partir daí, passa a oscilar nos meses seguintes, mantendo-se ainda em um nível elevado, o que indica estabilidade na rentabilidade mesmo com variações no desempenho ao longo do segundo semestre.
-- **2009:** O comportamento é semelhante ao de 2008: há um aumento da margem até aproximadamente junho, seguido por oscilações nos meses posteriores. Apesar dessas variações e de alguns meses com margem um pouco menor, os níveis continuam relativamente altos, sugerindo manutenção de uma boa eficiência operacional ao longo do ano.
+- **2009:** Assim como em 2008, a margem cresce até aproximadamente junho. A partir de julho passa a oscilar, mas de forma um pouco mais moderada que no ano anterior durante boa parte do segundo semestre. Apesar de uma queda mais forte no final do ano, os níveis de margem ainda permanecem relativamente altos. sugerindo manutenção de uma boa eficiência operacional ao longo do ano.
 
-### Sazonalidade na vendas
+### Sazonalidade nas vendas
 
-- As vendas (receitas e lucros) apresentam uma clara **diminuição** a partir do ano de 2007. Em ambos os anos, as vendas aumentam após os 3 primeiros meses, em média, com pequenas flutuações nos meses subsequentes.
+- As vendas (receitas e lucros) apresentam uma clara **diminuição** a partir do ano de 2007. Em ambos os anos, as vendas aumentam após os 4 primeiros meses, em média, com pequenas flutuações nos meses subsequentes. Esse movimento pode indicar um efeito de **sazonalidade nas vendas**, possivelmente relacionado a mudanças naturais na demanda, períodos promocionais, datas comerciais importantes ou variações no ritmo de consumo ao longo do ano.
 
 ## 2. Produtos e Rentabilidade
 
