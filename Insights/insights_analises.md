@@ -48,7 +48,7 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 - **2007:** Foi o ano com melhor desempenho geral, mantendo faturamento e lucro altos na maior parte dos meses. No meio do ano há uma pequena queda, sugerindo um possível efeito de sazonalidade ou uma redução temporária na demanda, o que pode indicar oportunidades para estratégias de estímulo às vendas nesse intervalo.
 - **2008:** Os resultados passam a oscilar mais ao longo do ano, com sinais de enfraquecimento após o primeiro semestre. Isso sugere um período de maior instabilidade no desempenho. Esse comportamento pode indicar um ambiente econômico menos favorável ou mudanças no mercado, reforçando a importância de monitoramento contínuo de custos e desempenho operacional ao longo do ano.
 - **2009:** O faturamento e o lucro ficam em um nível mais baixo em relação aos anos anteriores, mas os resultados se mostram mais estáveis ao longo dos meses, indicando um possível período de ajuste após as oscilações anteriores.
-- 
+
 ### Comportamento da margem de lucro
 
 - As margens de lucro estão bem próximas quando analisadas por ano, com 56%, com esta variando de 56 a 57% nos meses em 2007 e 2008, porém indo de 55 a 57% em 2009. Isso indica um **ótimo desempenho** anual.
