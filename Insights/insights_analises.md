@@ -51,7 +51,15 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 ### Comportamento da margem de lucro
 
-- As margens de lucro estão bem próximas quando analisadas por ano, com 56%, com esta variando de 56 a 57% nos meses em 2007 e 2008, porém indo de 55 a 57% em 2009. Isso indica um **ótimo desempenho** anual.
+| Indicador/Ano | Janeiro | Fevereiro | Março | Abril | Maio | Junho | Julho | Agosto | Setembro | Outubro | Novembro | Dezembro |
+|:--------------|--------:|----------:|------:|------:|-----:|------:|------:|-------:|---------:|--------:|---------:|---------:|
+| Margem/2007   | 56.49% | 56.45% | 56.20% | 56.77% | 56.94% | 57.03% | 56.91% | 57.27% | 57.28% | 57.75% | 56.74% | 56.39% |
+| Margem/2008   | 56.41% | 56.64% | 56.63% | 56.87% | 57.21% | 57.34% | 57.06% | 56.88% | 57.06% | 57.47% | 56.35% | 56.45% |
+| Margem/2009   | 55.90% | 56.32% | 56.58% | 57.22% | 57.49% | 57.57% | 56.37% | 56.61% | 56.63% | 57.83% | 55.05% | 55.05% |
+
+- **2007:** A margem de lucro se mantém bastante estável ao longo do ano, sempre próxima de 56–57%. Isso indica boa consistência na rentabilidade e sugere um controle eficiente dos custos mesmo com variações no faturamento.
+- **2008:** A margem apresenta um crescimento gradual até meados do ano, atingindo seu ponto mais alto por volta de junho. A partir daí, passa a oscilar nos meses seguintes, mantendo-se ainda em um nível elevado, o que indica estabilidade na rentabilidade mesmo com variações no desempenho ao longo do segundo semestre.
+- **2009:** O comportamento é semelhante ao de 2008: há um aumento da margem até aproximadamente junho, seguido por oscilações nos meses posteriores. Apesar dessas variações e de alguns meses com margem um pouco menor, os níveis continuam relativamente altos, sugerindo manutenção de uma boa eficiência operacional ao longo do ano.
 
 ### Sazonalidade na vendas
 
