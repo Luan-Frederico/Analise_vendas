@@ -22,9 +22,9 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 | Ano | Faturamento (US$) | Custo (US$) | Lucro (US$) | Margem (%) |
 |:----|------------------:|------------:|------------:|-----------:|
-| 2007 | 4.561.940.955,02 | 1.966.906.968,81 | 2.595.033.986,21 | 56.88% |
-| 2008 | 4.111.233.534,68 | 1.773.348.839,62 | 2.337.884.695,06 | 56.87% |
-| 2009 | 3.740.483.119,18 | 1.624.640.793,35 | 2.115.842.325,83 | 56.57% |
+| 2007 | 4.561.940.955,02 | 1.966.906.968,81 | 2.595.033.986,21 | 56.88 |
+| 2008 | 4.111.233.534,68 | 1.773.348.839,62 | 2.337.884.695,06 | 56.87 |
+| 2009 | 3.740.483.119,18 | 1.624.640.793,35 | 2.115.842.325,83 | 56.57 |
 
 - Todos os anos apresentaram **margens de lucro bastante próximas e elevadas**, acima de 50%. Isso significa que, em média, a cada ano, **mais da metade da receita total se converte em lucro.** Em termos práticos, isso indica que a **receita anual é mais que o dobro dos custos**, evidenciando uma operação altamente rentável e lucrativa e eficiente no controle de custos.
 
@@ -76,7 +76,7 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 | Projectors and Screens | 1.107.199.413,48  | 661.596.178,68 |
 | Washers and Dryers     | 1.066.830.650,48  | 565.179.546,81 |
 | Laptops                | 933.130.593,78    | 520.241.090,47 |
-| ...                    | ...               | ...            |
+|           ...          |        ...        |      ...       |
 | VCD e DVD              | 36.807.845,56     | 19.631.942,67  |
 | Boxed Games            | 32.442.331,03     | 18.445.428,22  |
 
@@ -90,8 +90,8 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 |:-----------------------|------------------:|-----------------:|
 | Home Appliances        | 3.922.736.787,19  | 2.179.484.604,96 |
 | Computers              | 3.209.427.141,42  | 1.825.159.907,96 |
-| Cameras and Camcorders | 2.562.0.23.774,06 | 1.536.955.209,75 |
-| ...                    | ...               | ...              |
+| Cameras and Camcorders | 2.562.023.774,06  | 1.536.955.209,75 |
+|          ...           |        ...        |       ...        |
 | Audio                  | 151.614.364,31    | 86.738.826,00    |
 | Games and Toys         | 149.696.456,86    | 80.459.517,70    |
 
@@ -100,7 +100,18 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 ### Margem e Produtos
 
-- O produto que apresentou a maior margem de lucro foi **WWI Screen 125in M1611 White** com 66.85% de lucratividade, apesar de não ser o produto de maior receita. Além deste, há vários outros produtos que também possuem uma margem de lucro bastante elevada, na casa dos 66%, o que evidencia que a Contoso possui produtos altamente valiosos.
+| Produto                                       | Faturamento (US$) | Margem de lucro (%) |
+|:----------------------------------------------| -----------------:| -------------------:|
+| WWI Screen 125in M1611 White                  | 1.458.518,40      | 66.85               |
+| Adventure Works LCD22W M200 White             | 5.223.750,70      | 66.84               |
+| WWI Screen 125in M1611 Silver                 | 1.541.491,83      | 66.84               |
+| Contoso Bluetooth Active Headphones L15 Black | 7.628.441,05      | 66.84               |
+|               ...                             |        ...        |         ...         |
+| Litware Washer & Dryer 15.5in E150 Silver     | 10.604.035.35     | 47.51               |
+| Fabrikam Laptop8.9 E0800 Silver               | 538.713,60        | 47.30               |
+
+- O produto com maior margem de lucro é o **WWI Screen 125in M1611 White**, com 66,85%, mesmo sem gerar muita receita. Além dele, outros produtos também apresentam margens próximas de 66%, indicando a presença de itens com alta rentabilidade na empresa.
+- Por outro lado, há produtos com margens menores (em torno de 47%), como **Litware Washer & Dryer 15.5in E150 Silver**, que ainda assim apresentam alto faturamento, inclusive superior ao de produtos mais rentáveis. Isso mostra um contraste importante entre receita e margem, sugerindo que nem sempre os produtos que mais faturam são os mais lucrativos em termos relativos.
 
 ### Produtos com alto volume de vendas, mas baixa rentabilidade
 
