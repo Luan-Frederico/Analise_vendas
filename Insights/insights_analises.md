@@ -100,7 +100,7 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 ### Margem e Produtos
 
-| Produto                                       | Faturamento (US$) | Margem de lucro (%) |
+| Nome do Produto                               | Faturamento (US$) | Margem de lucro (%) |
 |:----------------------------------------------| -----------------:| -------------------:|
 | WWI Screen 125in M1611 White                  | 1.458.518,40      | 66.85               |
 | Adventure Works LCD22W M200 White             | 5.223.750,70      | 66.84               |
@@ -115,7 +115,19 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 ### Produtos com alto volume de vendas, mas baixa rentabilidade
 
-- **Há muitos produtos que apresentam grandes quantidades vendidas, mas têm baixa rentabilidade.** Por exemplo, existe um produto que tem 107.090 unidades e 53.92% de lucro, e outro produto que tem 106.034 unidades, mas uma lucratividade de 66.76%. Isso mostra que um produto, mesmo com quase mil unidades a menos, pode ser mais rentável, pois o custo de produção pode ser menor.
+| Nome do Produto                                         | Quantidade vendida | Margem de lucro (%) | Faturamento (US$) |
+|:--------------------------------------------------------| ------------------:| -------------------:| -----------------:|
+| Contoso In-Line Coupler E180 Silver                     | 415.880            | 48.91               | 1.392.030,86      |
+| Contoso In-Line Coupler E180 Black                      | 415.700            | 48.92               | 1.391.501,90      |
+| Cigarette Lighter Adapter for Contoso Phones E110 Black | 409.600            | 48.98               | 10.227.464,38     |
+| ...                                                     | ...                | ...                 | ...               |
+| Litware Washer & Dryer 27in L420 Blue                   | 1.099              | 65.14               | 2.769.801,84      |
+| Contoso Washer & Dryer 27in L270 Blue                   | 1.040              | 65.10               | 2.618.531,76      |
+| Litware Washer & Dryer 27in L420 White                  | 1.011              | 65.18               | 2.551.356,60      |
+
+- A análise revela que produtos com maior volume de vendas, como os In-Line Couplers, tendem a ter margens mais baixas e faturamento relativamente menor, enquanto itens como o Cigarette Lighter Adapter conseguem gerar receitas mais altas mesmo com margens parecidas, o que pode indicar diferença de preço ou posicionamento.
+- Já produtos como lavadoras e secadoras (Washer & Dryers) aparecem com baixo volume de vendas, mas com margens mais altas, ainda assim mantendo um faturamento relevante.
+- No geral, **há um contraste claro entre volume e margem:** produtos que vendem mais tendem a ser menos rentáveis proporcionalmente, enquanto os mais lucrativos vendem menos.
 
 ### Marcas e Performance
 
