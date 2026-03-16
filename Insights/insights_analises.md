@@ -149,8 +149,19 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 - No geral, fica claro um **contraste entre escala e rentabilidade**, com diferentes estratégias dentro do portfólio.
 
 ### Recomendação estratégica
+#### Análise geral:
 
+O portfólio apresenta concentração de receita em categorias como Home Appliances, Computers e subcategorias como Camcorders e Projectors and Screens, além de forte dependência de volume em marcas como Contoso. Ao mesmo tempo, marcas como A. Datum, Fabrikam e Proseware se destacam por maior margem, enquanto alguns produtos de alto volume operam com menor rentabilidade.
 
+#### Recomendações:
+
+- **Contoso** (alto volume, margem média): Testar ajustes de preço e redução de custos, já que pequenos ganhos de margem podem gerar grande impacto no lucro total.
+- **A. Datum, Fabrikam e Proseware** (alta margem): Ampliar investimento em marketing e distribuição para ganhar escala, mantendo o posicionamento premium.
+- **Home Appliances e Computers** (categorias principais): Continuar priorizando, mas com foco em eficiência operacional, já que concentram grande parte do faturamento.
+- **Camcorders, Projectors and Screens** (Subcategorias líderes): Reforçar estratégia comercial, pois já são motores de receita e lucro.
+- **Produtos de alto volume e baixa margem** (ex: In-Line Couplers): Avaliar reajuste de preço ou redução de custos para melhorar rentabilidade.
+- **Produtos de alta margem e baixo volume** (ex: Washer & Dryer premium): Investir em marketing, posicionamento e possíveis bundles para aumentar vendas.
+- **Audio, Games and Toys** (categorias de baixa relevância): Reavaliar — reduzir investimentos ou buscar reposicionamento para melhorar desempenho.
 
 ## 3.Análise regional e por Lojas
 
