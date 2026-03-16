@@ -131,9 +131,26 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 ### Marcas e Performance
 
-- A **performance das marcas varia entre volume de vendas e eficiência.** A Contoso se destaca por vender muito e ainda manter uma margem elevada, mostrando liderança sólida. Já Fabrikam e A. Datum chamam atenção pela maior margem de lucro, indicando maior eficiência e possível posicionamento mais estratégico. As demais marcas apresentam desempenho mais intermediário, com menor escala, mas margens relativamente estáveis.
+| Marca                | Quantidade vendida | Faturamento (US$) | Lucro (US$)      | Margem de lucro (%) |
+|:---------------------|-------------------:|------------------:|-----------------:|--------------------:|
+| Contoso              | 19.989.701         | 2.742.253.042,42  | 1.541.898.821,66 | 56.23               |
+| Fabrikam             | 4.651.318          | 2.386.602.053,24  | 1.392.149.024,49 | 58.33               |
+| Litware              | 3.966.203          | 1.432.744.691,86  | 802.172.628,46   | 55.99               |
+| Adventure Works      | 3.489.890          | 1.352.240.190,16  | 754.357.256,28   | 55.79               |
+| Proseware            | 4.113.914          | 1.205.475.416,64  | 700.565.638,82   | 58.12               |
+| Wide World Importers | 2.830.607          | 960.994.252,44    | 541.538.228,24   | 56.35               |
+| The Phone Company    | 2.427.158          | 673.525.407,96    | 379.340.915,54   | 56.32               |
+| A. Datum             | 2.400.635          | 619.803.753,56    | 367.124.727,93   | 59.23               |
+| Southridge Video     | 4.600.480          | 486.921.072,34    | 263.097.284,19   | 54.03               |
+| Northwind Traders    | 604.756            | 418.668.898,71    | 234.655.922,77   | 56.05               |
+| Tailspin Toys        | 4.245.792          | 134.428.829,55    | 71.860.558,72    | 53.46               |
+
+- A **performance das marcas varia entre volume de vendas e eficiência**. A **Contoso** lidera em volume e faturamento, com uma margem próxima da média, o que reforça sua força em escala. Já **Fabrikam**, **A. Datum** e **Proseware** se destacam pelas margens mais altas, indicando maior eficiência e um posicionamento mais estratégico. Por outro lado, marcas como **Southridge Video** e **Tailspin Toys** até têm volumes relevantes, mas geram menos receita proporcionalmente, o que pode indicar menor valor agregado.
+- No geral, fica claro um **contraste entre escala e rentabilidade**, com diferentes estratégias dentro do portfólio.
 
 ### Recomendação estratégica
+
+
 
 ## 3.Análise regional e por Lojas
 
