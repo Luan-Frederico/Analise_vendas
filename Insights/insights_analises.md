@@ -68,9 +68,35 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 ## 2. Produtos e Rentabilidade
 
 ### Receitas por Categorias e subcategorias
+#### Subcategorias
 
-- As subcategorias que mais contribuíram para a receita total da empresa são as **Filmadoras digitais (Camcorders)** com 1.335 trilhão de dólares, seguida dos **Projetores e Telas (Projectors and Screens)** com 1.107 tri. e as **Lavadoras e Secadores (Washers and Dryers)** com 1.066 trilhões.  
-Por outro lado, os produtos mais vendidos são os da categoria **Eletrônicos (Home Appliances)** com 3.992 trilhões de dólares de receita, seguido pelos **Computadores (Computers)** com 3.209 trilhões.
+| Subcategoria           | Faturamento (US$) | Lucro (US$)    |
+|:-----------------------|------------------:|---------------:|
+| Camcorders             | 1.335.302.769,92  | 798.856.051,54 |
+| Projectors and Screens | 1.107.199.413,48  | 661.596.178,68 |
+| Washers and Dryers     | 1.066.830.650,48  | 565.179.546,81 |
+| Laptops                | 933.130.593,78    | 520.241.090,47 |
+| ...                    | ...               | ...            |
+| VCD e DVD              | 36.807.845,56     | 19.631.942,67  |
+| Boxed Games            | 32.442.331,03     | 18.445.428,22  |
+
+- As subcategorias com maior contribuição para a receita são **Filmadoras digitais** (Camcorders), **Projetores e Telas** (Projectors and Screens) e **Lavadoras e Secadores** (Washers and Dryers), ultrapassando a casa dos US$ 1 bilhão. A forte participação dessas subcategorias pode estar associada a fatores como maior volume de vendas ou preços médios mais elevados, hipótese que não pode ser confirmada diretamente com os dados disponíveis.
+- Além disso, essas mesmas subcategorias também apresentam lucros expressivos, sugerindo que não apenas vendem mais, mas também geram mais lucro, sendo **estratégicas** para a empresa.
+- Por outro lado, subcategorias como **VCD e DVD** e **Boxed Games** aparecem com receitas significativamente menores, o que pode indicar queda de relevância desses produtos, podendo estar associada a mudanças tecnológicas e de comportamento do consumidor (como o avanço do streaming e mídias digitais).
+
+#### Categorias
+
+| Categorias             | Faturamento (US$) | Lucro (US$)      |
+|:-----------------------|------------------:|-----------------:|
+| Home Appliances        | 3.922.736.787,19  | 2.179.484.604,96 |
+| Computers              | 3.209.427.141,42  | 1.825.159.907,96 |
+| Cameras and Camcorders | 2.562.0.23.774,06 | 1.536.955.209,75 |
+| ...                    | ...               | ...              |
+| Audio                  | 151.614.364,31    | 86.738.826,00    |
+| Games and Toys         | 149.696.456,86    | 80.459.517,70    |
+
+- As categorias com maior faturamento são **Eletrodomésticos** (Home Appliances) e **Computadores** (Computers), ultrapassando US$ 3 bilhões. Essas categorias concentram a maior parte da receita e também apresentam os maiores lucros, indicando seu papel central no desempenho da empresa.
+- Em contraste, categorias como **Audio** e **Games and Toys** apresentam faturamento e lucro bem menores, sugerindo menor participação no resultado total.
 
 ### Margem e Produtos
 
