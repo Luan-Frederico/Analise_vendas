@@ -163,7 +163,7 @@ O portfólio apresenta concentração de receita em categorias como Home Applian
 - **Produtos de alta margem e baixo volume** (ex: Washer & Dryer premium): Investir em marketing, posicionamento e possíveis bundles para aumentar vendas.
 - **Audio, Games and Toys** (categorias de baixa relevância): Reavaliar — reduzir investimentos ou buscar reposicionamento para melhorar desempenho.
 
-## 3.Análise regional e por Lojas
+## 3. Análise regional e por Lojas
 
 ### Faturamento e Lucro por Região
 #### Continente
@@ -244,11 +244,50 @@ O portfólio apresenta concentração de receita em categorias como Home Applian
 - Isso mostra que, embora as margens sejam parecidas entre os países, o impacto no resultado total vem principalmente do volume. Ou seja, países como os Estados Unidos acabam sendo muito mais relevantes para o faturamento geral, mesmo sem ter uma margem tão diferente dos demais.
 
 ### Desempenho regional ao longo do tempo
+#### América do Norte
 
-- Em relação às **vendas por continentes ao longo dos anos**, observa-se que os EUA apresenta uma queda brusca de desempenho, reduzindo as receitas, lucro e margem de lucro. Já a Ásia apresenta uma tendência de crescimento na receita e lucro, porém com diminuição na margem de lucro, o que pode ser explicado pelo aumento no custo. A Europa tem uma situação semelhante ao do EUA, com diminuição na receita e lucro, com uma margem variando, ora aumenta ora dimunui.
-- Complementando com uma análise mensal, EUA registrou aumento geral nas receitas e lucros, e instabilidade na margem ao longo dos anos. Ásia registrou aumento instável nas receitas e lucros, com uma menor instabilidade que EUA. Já a Europa apresentou bastante instabilidade na receita, com aumentos e diminuições bruscas, o lucro tende a diminuir aos poucos com leves oscilações, e a margem permanece com variações mais constantes.
+| Ano  | Faturamento (US$) | Lucro (US$)      | Margem de lucro (%) |
+|:-----| -----------------:| ----------------:| -------------------:|
+| 2007 | 2.875.499.132,11  | 1.639.950.765,84 | 57.03               |
+| 2008 | 2.397.299.780,89  | 1.366.340.013,49 | 56.99               |
+| 2009 | 2.014.506.603,43  | 1.141.181.104,72 | 56.65               |
+
+#### Ásia
+
+| Ano  | Faturamento (US$) | Lucro (US$)      | Margem de lucro (%) |
+|:-----| -----------------:| ----------------:| -------------------:|
+| 2007 | 726.887.376,46    | 412.200.128,43   | 56.71               |
+| 2008 | 944.715.987,80    | 535.376.102,27   | 56.67               |
+| 2009 | 1.028.600.621,89  | 579.442.574,79   | 56.33               |
+
+#### Europa
+
+| Ano  | Faturamento (US$) | Lucro (US$)      | Margem de lucro (%) |
+|:-----| -----------------:| ----------------:| -------------------:|
+| 2007 | 959.554.446,45    | 542.883.091,94   | 56.58               |
+| 2008 | 769.217.766,00    | 436.168.579,31   | 56.70               |
+| 2009 | 697.375.893,85    | 395.218.646,31   | 56.67               |
+
+- Olhando a evolução ao longo dos anos, a **América do Norte** apresenta uma queda bem perceptível no faturamento e no lucro de 2007 para 2009. Mesmo assim, a margem de lucro quase não muda, o que sugere que o problema não está tanto nos custos, mas sim na diminuição do volume de vendas.
+- A **Ásia** segue um caminho diferente, com crescimento contínuo em faturamento e lucro ao longo dos anos. Por outro lado, a margem de lucro cai um pouco, o que pode indicar aumento de custos ou até uma estratégia mais agressiva de preços para expandir a participação no mercado.
+- Já a **Europa** tem um comportamento parecido com o da América do Norte, com queda nas receitas e nos lucros ao longo do tempo. A margem, porém, se mantém bem estável, reforçando a ideia de que a redução está mais ligada à queda nas vendas do que a mudanças na eficiência operacional.
+
+- Complementando com uma análise mensal, **América do Norte** registrou aumento geral nas receitas e lucros, e instabilidade na margem ao longo dos anos. A **Ásia** registrou aumento instável nas receitas e lucros, com uma menor instabilidade que o anterior. Por fim, a **Europa** apresentou bastante instabilidade na receita, com aumentos e diminuições bruscas, o lucro tende a diminuir aos poucos com leves oscilações, e a margem permanece com variações mais constantes.
 
 ### Recomendação estratégica
+#### Análise geral:
+
+Os resultados indicam uma forte concentração de receita e lucro na América do Norte, principalmente nos Estados Unidos, que se destacam como principal mercado da operação. Em paralelo, observa-se que as margens de lucro são bastante estáveis entre regiões e países, sugerindo consistência na estrutura de custos e precificação.  
+Além disso, há diferenças importantes no comportamento das regiões: a Ásia apresenta crescimento em volume, enquanto América do Norte e Europa mostram queda no faturamento ao longo do tempo, mesmo mantendo margens estáveis. Isso reforça que o desempenho está mais relacionado ao volume de vendas do que à eficiência operacional.
+
+#### Recomendações:
+
+- **Mercado dos Estados Unidos:** Priorizar ações de manutenção e otimização, já que o país concentra grande parte do resultado. Pequenas melhorias podem gerar impacto relevante no total.
+- **China e Ásia** (crescimento com menor margem): Avaliar oportunidades de melhoria de rentabilidade, seja via ajuste de preços, redução de custos ou revisão do mix de produtos.
+- **Europa** (queda com margem estável): Focar em estratégias para retomada de crescimento, como expansão comercial ou reforço em canais de venda.
+- **Dependência de poucos mercados:** Buscar maior diversificação geográfica, reduzindo o risco de concentração em países como os Estados Unidos.
+- **Países com menor volume e boa margem:** Explorar estratégias para ganho de escala, já que apresentam eficiência, mas baixo impacto no resultado total.
+- **Canais de alto volume** (online e catálogo): Melhorar eficiência operacional, pois são responsáveis por grande parte do faturamento, mesmo com margens ligeiramente menores.
 
 ## 4.Perfil de Clientes 
 
