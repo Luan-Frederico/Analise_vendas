@@ -7,12 +7,12 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 ### Receita (Faturamento), custo, lucro e margem
 
-| Indicador       | Valor (US$) |
-|:----------------|------------:|
+| Indicador       | Valor (US$)       |
+|:----------------|------------------:|
 | Faturamento     | 12,413,657,608.89 |
-| Custo total     | 5,364,896,601.78 |
-| Lucro           | 7,048,761,007.11 |
-| Margem de lucro | 56.78% |
+| Custo total     | 5,364,896,601.78  |
+| Lucro           | 7,048,761,007.11  |
+| Margem de lucro | 56.78%            |
 
 - **Margem = 56.78%** -> Indica que, a cada US$ 100 faturados, US$ 56.78 viram lucro.
 - Rentabilidade **excelente**.
@@ -20,30 +20,30 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 ### Receita e Lucro ao longo do tempo 
 #### Anual
 
-| Ano | Faturamento (US$) | Custo (US$) | Lucro (US$) | Margem (%) |
-|:----|------------------:|------------:|------------:|-----------:|
-| 2007 | 4.561.940.955,02 | 1.966.906.968,81 | 2.595.033.986,21 | 56.88 |
-| 2008 | 4.111.233.534,68 | 1.773.348.839,62 | 2.337.884.695,06 | 56.87 |
-| 2009 | 3.740.483.119,18 | 1.624.640.793,35 | 2.115.842.325,83 | 56.57 |
+| Ano  | Faturamento (US$) | Custo (US$)      | Lucro (US$)      | Margem (%) |
+|:-----|------------------:|-----------------:|-----------------:|-----------:|
+| 2007 | 4.561.940.955,02  | 1.966.906.968,81 | 2.595.033.986,21 | 56.88      |
+| 2008 | 4.111.233.534,68  | 1.773.348.839,62 | 2.337.884.695,06 | 56.87      |
+| 2009 | 3.740.483.119,18  | 1.624.640.793,35 | 2.115.842.325,83 | 56.57      |
 
 - Todos os anos apresentaram **margens de lucro bastante próximas e elevadas**, acima de 50%. Isso significa que, em média, a cada ano, **mais da metade da receita total se converte em lucro.** Em termos práticos, isso indica que a **receita anual é mais que o dobro dos custos**, evidenciando uma operação altamente rentável e lucrativa e eficiente no controle de custos.
 
 #### Mensal
 
-| Mês | Faturamento 2007 | Lucro 2007 | Faturamento 2008 | Lucro 2008 | Faturamento 2009 | Lucro 2009 |
-|:----|-----------------:|-----------:|-----------------:|-----------:|-----------------:|-----------:|
-| Janeiro | 269.835.263,23 | 152.435.853,61 | 279.460.806,88 | 157.654.297,44 | 269.770.345,06 | 150.789.792,21 |
-| Fevereiro | 298.215.968,35 | 168.348.082,39 | 288.852.634,02 | 163.600.895,88 | 266.002.676,16 | 149.804.385,69 |
-| Março | 300.486.926,90 | 168.881.450,73 | 290.060.560,62 | 164.250.374,14 | 270.769.957,91 | 153.190.277,27 |
-| Abril | 400.160.331,60 | 227.152.486,91 | 356.139.170,42 | 202.523.857,25 | 309.157.751,21 | 176.909.482,68 |
-| Maio | 423.429.127,79 | 241.117.883,31 | 351.096.953,11 | 200.855.540,28 | 341.560.286,15 | 196.375.164,31 |
-| Junho | 409.797.545,55 | 233.706.512,91 | 338.132.827,24 | 193.869.510,32 | 331.299.978,98 | 190.722.186,32 |
-| Julho | 389.617.372,27 | 221.739.911,76 | 386.024.197,67 | 220.250.241,69 | 333.374.435,16 | 187.934.296,46 |
-| Agosto | 388.429.827,11 | 222.449.277,97 | 359.938.153,68 | 204.727.275,34 | 325.030.342,96 | 183.985.007,60 |
-| Setembro | 379.144.599,56 | 217.171.684,71 | 353.421.976,71 | 201.660.738,84 | 313.780.340,43 | 177.702.897,25 |
-| Outubro | 423.213.240,84 | 244.414.205,91 | 326.256.367.86 | 187.509.060,51 | 326.836.387,93 | 189.019.428,25 |
-| Novembro | 453.750.209,24 | 257.467.904,55 | 383.063.713,52 | 215.866.234,36 | 322.166.203,77 | 177.344.106,51 |
-| Dezembro | 425.860.542,57 | 240.148.731,44 | 398.786.172,94 | 225.116.669,00 | 330.734.413,46 | 182.065.301,28 |
+| Mês       | Faturamento 2007 | Lucro 2007     | Faturamento 2008 | Lucro 2008     | Faturamento 2009 | Lucro 2009     |
+|:----------|-----------------:|---------------:|-----------------:|---------------:|-----------------:|---------------:|
+| Janeiro   | 269.835.263,23   | 152.435.853,61 | 279.460.806,88   | 157.654.297,44 | 269.770.345,06   | 150.789.792,21 |
+| Fevereiro | 298.215.968,35   | 168.348.082,39 | 288.852.634,02   | 163.600.895,88 | 266.002.676,16   | 149.804.385,69 |
+| Março     | 300.486.926,90   | 168.881.450,73 | 290.060.560,62   | 164.250.374,14 | 270.769.957,91   | 153.190.277,27 |
+| Abril     | 400.160.331,60   | 227.152.486,91 | 356.139.170,42   | 202.523.857,25 | 309.157.751,21   | 176.909.482,68 |
+| Maio      | 423.429.127,79   | 241.117.883,31 | 351.096.953,11   | 200.855.540,28 | 341.560.286,15   | 196.375.164,31 |
+| Junho     | 409.797.545,55   | 233.706.512,91 | 338.132.827,24   | 193.869.510,32 | 331.299.978,98   | 190.722.186,32 |
+| Julho     | 389.617.372,27   | 221.739.911,76 | 386.024.197,67   | 220.250.241,69 | 333.374.435,16   | 187.934.296,46 |
+| Agosto    | 388.429.827,11   | 222.449.277,97 | 359.938.153,68   | 204.727.275,34 | 325.030.342,96   | 183.985.007,60 |
+| Setembro  | 379.144.599,56   | 217.171.684,71 | 353.421.976,71   | 201.660.738,84 | 313.780.340,43   | 177.702.897,25 |
+| Outubro   | 423.213.240,84   | 244.414.205,91 | 326.256.367.86   | 187.509.060,51 | 326.836.387,93   | 189.019.428,25 |
+| Novembro  | 453.750.209,24   | 257.467.904,55 | 383.063.713,52   | 215.866.234,36 | 322.166.203,77   | 177.344.106,51 |
+| Dezembro  | 425.860.542,57   | 240.148.731,44 | 398.786.172,94   | 225.116.669,00 | 330.734.413,46   | 182.065.301,28 |
 
 - **2007:** Foi o ano com melhor desempenho geral, mantendo faturamento e lucro altos na maior parte dos meses. No meio do ano há uma pequena queda, sugerindo um possível efeito de sazonalidade ou uma redução temporária na demanda, o que pode indicar oportunidades para estratégias de estímulo às vendas nesse intervalo.
 - **2008:** Os resultados passam a oscilar mais ao longo do ano, com sinais de enfraquecimento após o primeiro semestre. Isso sugere um período de maior instabilidade no desempenho. Esse comportamento pode indicar um ambiente econômico menos favorável ou mudanças no mercado, reforçando a importância de monitoramento contínuo de custos e desempenho operacional ao longo do ano.
@@ -51,11 +51,11 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 ### Comportamento da margem de lucro
 
-| Indicador/Ano | Janeiro | Fevereiro | Março | Abril | Maio | Junho | Julho | Agosto | Setembro | Outubro | Novembro | Dezembro |
-|:--------------|--------:|----------:|------:|------:|-----:|------:|------:|-------:|---------:|--------:|---------:|---------:|
-| Margem/2007   | 56.49% | 56.45% | 56.20% | 56.77% | 56.94% | 57.03% | 56.91% | 57.27% | 57.28% | 57.75% | 56.74% | 56.39% |
-| Margem/2008   | 56.41% | 56.64% | 56.63% | 56.87% | 57.21% | 57.34% | 57.06% | 56.88% | 57.06% | 57.47% | 56.35% | 56.45% |
-| Margem/2009   | 55.90% | 56.32% | 56.58% | 57.22% | 57.49% | 57.57% | 56.37% | 56.61% | 56.63% | 57.83% | 55.05% | 55.05% |
+| Indicador/Ano | Janeiro | Fevereiro | Março  | Abril  | Maio   | Junho  | Julho  | Agosto | Setembro | Outubro | Novembro | Dezembro |
+|:--------------|--------:|----------:|-------:|-------:|-------:|-------:|-------:|-------:|---------:|--------:|---------:|---------:|
+| Margem/2007   | 56.49%  | 56.45%    | 56.20% | 56.77% | 56.94% | 57.03% | 56.91% | 57.27% | 57.28%   | 57.75%  | 56.74%   | 56.39%   |
+| Margem/2008   | 56.41%  | 56.64%    | 56.63% | 56.87% | 57.21% | 57.34% | 57.06% | 56.88% | 57.06%   | 57.47%  | 56.35%   | 56.45%   |
+| Margem/2009   | 55.90%  | 56.32%    | 56.58% | 57.22% | 57.49% | 57.57% | 56.37% | 56.61% | 56.63%   | 57.83%  | 55.05%   | 55.05%   |
 
 - **2007:** A margem de lucro se mantém bastante estável ao longo do ano, sempre próxima de 56–57%. Isso indica boa consistência na rentabilidade e sugere um controle eficiente dos custos mesmo com variações no faturamento.
 - **2008:** A margem apresenta um crescimento gradual até meados do ano, atingindo seu ponto mais alto por volta de junho. A partir daí, passa a oscilar nos meses seguintes, mantendo-se ainda em um nível elevado, o que indica estabilidade na rentabilidade mesmo com variações no desempenho ao longo do segundo semestre.
@@ -166,13 +166,50 @@ O portfólio apresenta concentração de receita em categorias como Home Applian
 ## 3.Análise regional e por Lojas
 
 ### Faturamento e Lucro por Região
+#### Continente
 
-- O continente **Norte-Americano (North America)** é a região que registrou o **maior faturamento** com um total de 7.2 bilhões de dólares, além contar com o **maior lucro** (4.1 bi) e a **maior margem de lucro** com 56.91%.  
-- **Estados Unidos (United States)** foi o país que apresentou o **maior faturamento** com um total de 7 bilhões de dólares, além de contar com o **maior lucro** (4 bi) e a segunda maior margem de lucro com 56.91%, ficando atrás de Canadá com 56.95%. Esse desempenho dos EUA justifica o motivo pelo qual o continente Norte-Americano obteve o melhor desempenho.
+| Continente    | Faturamento (US$) | Lucro (US$)      | Margem de lucro (%) |
+|:--------------| -----------------:| ----------------:| -------------------:|
+| North America | 7.287.305.516,43  | 4.147.471.884,05 | 56.91               |
+| Asia          | 2.700.203.986,15  | 1.527.018.805,49 | 56.55               |
+| Europe        | 2.426.148.106,30  | 1.374.270.317,56 | 56.64               |
+
+- A **América do Norte** se destaca como a principal região produtora, concentrando o maior faturamento e lucro entre os continentes, além de apresentar uma margem consideravelmente superior às demais regiões. Isso indica não só **maior escala, mas também boa eficiência.**
+
+#### País
+
+| País          | Faturamento (US$) | Lucro (US$)      | Margem de lucro (%) |
+|:--------------| -----------------:| ----------------:| -------------------:|
+| United States | 7.036.656.457,48  | 4.004.724.134,89 | 56.91               |
+| China         | 1.660.605.327,27  | 937.679.803,34   | 56.47               |
+| Germany       | 1.017.318.431,42  | 576.088.165,80   | 56.63               |
+| France        | 658.922.522,17    | 372.941.015,95   | 56.60               |
+| ...           | ...               | ...              | ...                 |
+| Slovenia      | 21.116.855,58     | 11.948.953,03    | 56.58               |
+| Sweden        | 21.017.382,48     | 11.857.220,40    | 56.42               |
+| Switzerland   | 20.797.430,75     | 11.758.377,15    | 56.54               |
+
+- Os **Estados Unidos** se destacam como o principal mercado, concentrando o maior faturamento e o maior lucro, além de manter uma margem elevada e muito próxima da maior observada, que possui a maior margem entre todos os países, com 56.95%. Esse desempenho explica a liderança da América do Norte, mostrando como os resultados estão fortemente concentrados no país.
+- Além disso, os três primeiros países — **Estados Unidos, China e Alemanha** — são justamente os que mais contribuem para o faturamento total e lucratividade, liderando não só nos seus respectivos continentes, mas também no cenário global, indicando uma forte concentração dos resultados em poucos mercados.
 
 ### Margem por Lojas
 
-- Dentre as 306 lojas, a **Contoso Thimphu No.1 Store** é a loja que teve a **maior margem de lucro** com 57.45%, tornando esta a loja mais rentável. Em contrapartida, também é uma das lojas que menos gera receita e lucro, pois pode ser que seja uma empresa menor que as outras.
+| Loja                               | Faturamento (US$) | Lucro (US$)      | Margem de lucro (%) |
+|:-----------------------------------| -----------------:| ----------------:| -------------------:|
+| Contoso Thimphu No.1 Store         | 6.986.780,59      | 4.013.800,72     | 57.45               |
+| Contoso Guangzhou Store            | 6.460.684,53      | 3.708.318,83     | 57.40               |
+| Contoso Fond du Lac Store          | 13.547.747,04     | 7.776.159,56     | 57.40               |
+| Contoso Catalog Store              | 1.078.007.547,23  | 612.543.844,55   | 56.82               |
+| Contoso North America Online Store | 984.249.404,25    | 557.520.994,55   | 56.64               |
+| Contoso Asia Online Store          | 887.049.174,43    | 500.337.745,19   | 56.40               |
+| Contoso Europe Online Store        | 806.300.456,39    | 456.445.932,20   | 56.61               |
+| Contoso North America Reseller     | 628.168.708,52    | 357.081.174,70   | 56.84               |
+| Contoso Asia Reseller              | 563.941.179,69    | 318.642.038,28   | 56.50               |
+| Contoso Europe Reseller            | 523.087.943,23    | 295.915.751,12   | 56.57               |
+
+- Entre as 306 lojas, a **Contoso Thimphu No.1 Store** apresenta a maior margem de lucro, passando de 57%, o que indica alta eficiência. Por outro lado, essa loja tem um faturamento e lucro bem menores em comparação com outras, sugerindo menor escala de operação.
+- Em contraste, lojas como a **Contoso Catalog Store** e as **lojas online** para os três continetes concentram grande parte do faturamento e do lucro, mesmo com margens um pouco menores.
+- No geral, há um padrão claro: **lojas menores tendem a ter margens ligeiramente mais altas**, enquanto **canais de venda maiores operam com maior volume e sustentam o resultado total**, mesmo com margens um pouco mais baixas.
 
 ### Regiões com alto volume de vendas, mas margem reduzida
 
