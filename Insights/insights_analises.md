@@ -200,21 +200,48 @@ O portfólio apresenta concentração de receita em categorias como Home Applian
 | Contoso Guangzhou Store            | 6.460.684,53      | 3.708.318,83     | 57.40               |
 | Contoso Fond du Lac Store          | 13.547.747,04     | 7.776.159,56     | 57.40               |
 | Contoso Catalog Store              | 1.078.007.547,23  | 612.543.844,55   | 56.82               |
+| ...                                | ...               | ...              | ...                 |
 | Contoso North America Online Store | 984.249.404,25    | 557.520.994,55   | 56.64               |
 | Contoso Asia Online Store          | 887.049.174,43    | 500.337.745,19   | 56.40               |
 | Contoso Europe Online Store        | 806.300.456,39    | 456.445.932,20   | 56.61               |
 | Contoso North America Reseller     | 628.168.708,52    | 357.081.174,70   | 56.84               |
 | Contoso Asia Reseller              | 563.941.179,69    | 318.642.038,28   | 56.50               |
 | Contoso Europe Reseller            | 523.087.943,23    | 295.915.751,12   | 56.57               |
+| ...                                | ...               | ...              | ...                 |
 
 - Entre as 306 lojas, a **Contoso Thimphu No.1 Store** apresenta a maior margem de lucro, passando de 57%, o que indica alta eficiência. Por outro lado, essa loja tem um faturamento e lucro bem menores em comparação com outras, sugerindo menor escala de operação.
 - Em contraste, lojas como a **Contoso Catalog Store** e as **lojas online** para os três continetes concentram grande parte do faturamento e do lucro, mesmo com margens um pouco menores.
 - No geral, há um padrão claro: **lojas menores tendem a ter margens ligeiramente mais altas**, enquanto **canais de venda maiores operam com maior volume e sustentam o resultado total**, mesmo com margens um pouco mais baixas.
 
 ### Regiões com alto volume de vendas, mas margem reduzida
+#### Continente
 
-- Em termos de quantidade de produtos vedidos, **América do Norte** é o continente com o **maior volume de vendas**, com um total de 30 milhões de unidades, e é a região que gera **maior rentabilidade** com margem de lucro de 56.91%. Por outro lado, a Ásia contém um maior volume de produtos vendidos em relação ao continente Europeu, porém é menos rentável, com uma margem de lucro inferior à da Europa.  
-- Referindo-se à **nacionalidade**, todos os países apresentam uma margem de lucro em torno de 56%, com o Canadá tendo a maior, porém há uma discrpância enorme em relação a quantidade de unidades vendidas, com o Estados Unidos registrando quatro vezes mais vendas que o segundo país com mais produtos vendidos, China, embora apresentando uma margem bastante próxima a do Canadá.
+| Continente    | Quantidade vendida | Margem de lucro (%) |
+|:--------------| ------------------:| -------------------:|
+| North America | 30.746.619.00      | 56.91               |
+| Asia          | 12.301.563.00      | 56.55               |
+| Europe        | 10.272.272.00      | 56.64               |
+
+- Em termos de quantidade vendida, a **América do Norte** lidera com folga, somando cerca de 30 milhões de unidades. Além do alto volume, também se destaca pela maior margem de lucro, o que indica uma operação bem **equilibrada entre escala e rentabilidade.**
+- A **Ásia**, por sua vez, apresenta um volume de vendas superior ao da Europa, mas com uma margem de lucro um pouco menor. Isso sugere que, apesar do bom desempenho em volume, pode haver espaço para **ajustes para melhorar a rentabilidade** - seja em preços, mix de produtos ou custos.
+- Já a **Europa** vende menos que a Ásia, mas consegue manter uma margem levemente maior, o que pode indicar uma estratégia mais eficiente em termos de precificação ou foco em produtos com maior valor agregado.
+
+#### País
+
+| País          | Quantidade vendida | Margem de lucro (%) |
+|:--------------| ------------------:| -------------------:|
+| United States | 29.713.764.00      | 56.91               |
+| China         | 7.640.703.00       | 56.47               |
+| Germany       | 4.442.618.00       | 56.63               |
+| France        | 2.762.303.00       | 56.60               |
+| ...           | ...                | ...                 |
+| Romania       | 83.941.00          | 56.74               |
+| Ireland       | 83.548.00          | 56.61               |
+| Netherlands   | 82.194.00          | 56.74               |
+
+- Olhando por país, a **margem de lucro é bastante estável** entre todos eles, sempre girando em torno de 56%. O Canadá aparece com a maior margem, mas a diferença para os demais países é pequena, o que sugere uma consistência na estratégia de precificação e custos.
+- Por outro lado, o que realmente muda de forma significativa é o **volume de vendas**. Os **Estados Unidos** se destacam muito, com uma quantidade vendida cerca de quatro vezes maior que a da China, que ocupa a segunda posição.
+- Isso mostra que, embora as margens sejam parecidas entre os países, o impacto no resultado total vem principalmente do volume. Ou seja, países como os Estados Unidos acabam sendo muito mais relevantes para o faturamento geral, mesmo sem ter uma margem tão diferente dos demais.
 
 ### Desempenho regional ao longo do tempo
 
