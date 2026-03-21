@@ -293,25 +293,74 @@ Além disso, há diferenças importantes no comportamento das regiões: a Ásia 
 
 ### Segmentos de clientes por Ticket médio
 
-Para analisar os perfis dos clientes, dividi estes em várias segmentações/grupo demográfico e selecionei as mais relevantes para o problema de negócio, que são: Tipo de cliente, Gênero, Renda, Idade e Ocupação.
+Para analisar os perfis dos clientes, dividi estes em várias segmentações/grupos demográficos e selecionei as mais relevantes para o problema de negócio, que são: Gênero, Renda, Idade e Ocupação.
 
-- Os **clientes físicos (Person)** registraram um ticket médio consideravelmente maior em relação ao das empresas, de 242 contra 207 dólares.  
-- Entre os clientes físicos, as **mulheres** geram um ticket médio ligeiramente maior que os homens, de 243 conra 241 dólares.  
-- Já dentre as classes de renda, clientes da **classe média**, com renda anual entre 150.000 e 300.000 dólares, apresentam um ticket médio consideravelmente maior em relação oas indivíduos que recebem menos que 150.000 dólares anualmente.  
-- Em termos de idade, **clientes com mais de 55 anos** registraram um ticket médio consideravelmente maior que os compradores com 55 anos ou menos, embora aqueles apresentam tickets médio próximos.  
-- Por fim, **gestor/líder** é a ocupação que registrou o maior ticket médio com 307 dólares, seguido dos Profissionais especializados, com 297 dólares.
+| Gênero    | Número de compras | Faturamento (US$) | Lucro (US$)    | Ticket médio (US$) |
+|:----------| -----------------:| -----------------:| --------------:| ------------------:|
+| Masculino | 1.437.544         | 346.854.253,78    | 156.018.878,66 | 241,28             |
+| Feminino  | 1.394.649         | 338.899.428,28    | 152.204.215,82 | 243,00             |
+
+| Categoria           | Número de compras | Faturamento (US$) | Lucro (US$)    | Ticket médio (US$) |
+|:--------------------| -----------------:| -----------------:| --------------:| ------------------:|
+| Classe Média        | 42.180            | 13.687.389,42     | 7.539.870,26   | 324,50             |
+| Classe Média-Baixa  | 1.244.074         | 378.462.403,27    | 178.113.906,47 | 304,21             |
+| Classe Baixa        | 1.545.939         | 293.603.889,37    | 122.569.317,75 | 189,92             |
+
+| Faixa etária | Número de compras | Faturamento (US$) | Lucro (US$)    | Ticket médio (US$) |
+|:-------------| -----------------:| -----------------:| --------------:| ------------------:|
+| 56 - 65      | 908.354           | 228.576.406,36    | 103.497.463,64 | 251,64             |
+| 66 - 75      | 695.590           | 173.932.808,42    | 79.253.063,91  | 250,05             |
+| 76 +         | 514.212           | 128.543.230,31    | 58.699.297,12  | 249,98             |
+| 46 - 55      | 714.037           | 154.701.236,96    | 66.773.269,80  | 216,66             |
+
+| Ocupação      | Número de compras | Faturamento (US$) | Lucro (US$)    | Ticket médio (US$) |
+|:--------------| -----------------:| -----------------:| --------------:| ------------------:|
+| Management    | 455.786           | 140.048.068,89    | 69.484.957.73  | 307,27             |
+| Professional  | 708.764           | 211.198.020,57    | 97.619.015,95  | 297,98             |
+| Skiled Manual | 658.214           | 169.887.225,60    | 74.556.070,66  | 258,10             |
+| Clerical      | 567.387           | 101.992.464,24    | 41.894.697,04  | 179,76             |
+| Manual        | 442.042           | 62.627.902,76     | 24.668.353,10  | 141,68             |
+
+Os dados mostram que o **ticket médio está fortemente associado ao perfil socioeconômico dos clientes.**
+
+- Clientes com **idade acima dos 55 anos** apresentam tickets médios mais elevados, próximos de US$ 250, indicando uma maior disposição a gastar por compra em comparação aos consumidores mais jovens.
+- Esse padrão se reforça quando analisamos a renda e ocupação. Clientes da **classe média** (que recebem entre US$ 150 mil e 300 mil anuais) registram o maior ticket médio, sugerindo que maior poder aquisitivo se traduz diretamente em compras de maior valor.
+- Da mesma forma, profissionais em cargos de maior qualificação, como **gestores** e **especialistas**, também se destacam, com tickets médios acima de US$ 290.
+- Por outro lado, o **gênero** apresenta pouca influência: mulheres possuem ticket médio levemente superior ao dos homens, mas a diferença é pouco significativa.
+
+Em síntese, o **ticket médio é principalmente impulsionado por renda, idade e ocupação**, sendo mais alto entre clientes mais maduros e com maior poder aquisitivo.
 
 ### Receita por grupos demográficos
 
-- Clientes do sexo **Masculino** registraram a maior receita.  
-- Clientes da **Classe Média Baixa**, que recebem entre 50.000 e 150.000 dólares anualmente, registraram a maior receita, ultrapassando a casa dos 300 milhões de dólares.  
-- Clientes que têm **idade entre 56 e 65 anos** registraram a maior receita, sendo a única a passar dos 200 milhões de dólares.  
-- Por fim, os **Profissionais especializados** são os clientes responsáveis por gerar a maior receita dentre os cargos, sendo o único a passar dos 200 milhões de dólares.
+A **receita apresenta uma concentração clara em alguns grupos específicos.**
+
+- Entre os **gêneros**, clientes do sexo masculino registram o maior faturamento total, embora a diferença em relação ao público feminino não seja muito expressiva.
+- Ao analisar a renda, a concentração é bem mais evidente: clientes da **classe média-baixa** (que recebem entre US$ 50 mil e 150 mil anuais) são responsáveis pela maior parcela do faturamento, sendo o único a ultrapassar os US$ 370 milhões. Esse valor é significativamente superior aos demais grupos, destacando esse segmento como o principal responsável pela receita.
+- Em termos de idade, clientes entre **56 e 65 anos** lideram o faturamento, sendo o único grupo a ultrapassar a marca de US$ 200 milhões, o que evidencia sua relevância dentro da base.
+- Por fim, em relação à ocupação, os **profissionais especializados** concentram a maior receita total, também superando os US$ 200 milhões e se destacando frente aos demais cargos.
+
+Esses grupos representam os principais responsáveis pelo faturamento total observado.
 
 ### Comportamento de compra entre perfis de clientes
 
-- Observa-se **diferença no comportamento de compra entre os perfis de clientes.** De modo geral, características demográficas e socioeconômicas como renda, ocupação, gênero e faixa etária estão associadas a variações no número de compras, receita, lucro e ticket médio. Enquanto alguns segmentos apresentam alto volume de compras, outros realizam menos transações, porém com maior valor médio, resultando em receita e lucro elevados mesmo com menor frequência de compra. Esses padrões indicam que diferentes perfis de clientes contribuem de maneiras distintas para o desempenho do negócio, seja pelo volume de compras ou pelo maior valor gasto por transação.
+- Observa-se **diferença no comportamento de compra entre os perfis de clientes.** De modo geral, características demográficas e socioeconômicas como renda, ocupação, gênero e faixa etária estão associadas a variações no número de compras, receita, lucro e ticket médio. Enquanto alguns segmentos apresentam alto volume de compras, outros realizam menos transações, porém com maior valor médio, resultando em receita e lucro elevados mesmo com menor frequência de compra. Esses padrões indicam que **diferentes perfis de clientes contribuem de maneiras distintas para o desempenho do negócio, seja pelo volume de compras ou pelo maior valor gasto por transação.**
 
 ### Recomendação estratégica
+#### Análise geral:
+
+Os resultados mostram que o desempenho do negócio varia entre os perfis de clientes. De forma geral, segmentos com **maior renda, maior qualificação profissional e idade mais elevada concentram os maiores tickets médios**, enquanto grupos mais amplos da base são responsáveis pela maior parte da receita, lucro e volume de compras.
+Isso indica que diferentes perfis contribuem de maneiras distintas: alguns pelo alto valor por transação, outros pelo impacto no volume e faturamento total.
+
+#### Recomendações:
+
+- **Segmentos de maior ticket médio:** Explorar estratégias de upsell e produtos de maior valor agregado, maximizando receita por cliente.
+- **Grupos com maior faturamento:** Priorizar retenção e fidelização, já que representam a base principal de receita do negócio.
+- **Clientes 55+:** Desenvolver ações direcionadas, pois combinam alto ticket médio com relevância em receita.
+- **Segmentos de menor ticket médio:** Implementar estratégias para aumentar o valor por compra, como combos, recomendações personalizadas ou incentivos.
+- **Uso de segmentação:** Direcionar campanhas e ofertas com base nos perfis identificados, equilibrando ações entre ganho de escala (em volume) e aumento de valor (em ticket médio).
 
 ## Conclusão estratégica
+
+De forma geral, a análise indica um negócio **altamente rentável e eficiente**, com margens elevadas ao longo do período, apesar de uma leve queda no faturamento. A receita está concentrada em produtos estratégicos, mercados específicos e segmentos de clientes com maior poder de compra, que também apresentam tickets médios mais altos.
+
+Por outro lado, há **oportunidades de melhoria** relacionadas à diversificação de mercados e ao melhor aproveitamento de categorias com alto volume, mas menor rentabilidade. Em síntese, os resultados mostram uma operação sólida, com espaço para otimizar ainda mais o desempenho a partir de decisões mais direcionadas.
