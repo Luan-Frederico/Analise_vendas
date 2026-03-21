@@ -6,6 +6,8 @@ Este projeto tem como objetivo analisar o **desempenho comercial e financeiro** 
 
 O foco do projeto foi aplicar **lógica analítica e domínio em SQL** para extrair insights estratégicos e transformar dados brutos em informações relevantes para apoio à tomada de decisão.
 
+---
+
 ## Problema de Negócio
 
 A Contoso Retail, empresa do setor de varejo com atuação em diferentes regiões, vinha registrando crescimento em vendas, porém precisava entender com maior precisão quais **produtos, segmentos e mercados eram responsáveis pela geração efetiva de lucro.** O objetivo era transformar o grande volume de dados transacionais do Data Warehouse em informações estratégicas para direcionar decisões comerciais.
