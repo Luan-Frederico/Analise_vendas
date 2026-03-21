@@ -74,45 +74,35 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 ## Resultados: Resumo das Análises e Principais Insights
 
-### Desempenho geral
+### 1. Desempenho geral
 
-- Em geral, no período analisado, a Contoso registrou aproximadamente **US$ 12,4 bilhões em receita** e **US$ 7,05 bilhões em lucro**, mantendo uma **margem de lucro consistentemente acima de 55%.** Esse resultado indica um modelo de negócio bastante lucrativo, em que a receita supera significativamente os custos.
+- A Contoso manteve **alta rentabilidade** ao longo do período, com margens acima de 55%, mesmo com uma leve queda no faturamento após 2007.
 
-- Apesar da **forte rentabilidade**, observa-se uma leve tendência de queda nas vendas ao longo dos anos, com redução gradual na receita e no lucro após 2007. Ainda assim, o comportamento mensal das vendas mostra um padrão relativamente estável, com crescimento após os primeiros meses do ano e pequenas oscilações ao longo dos meses seguintes.
+- No geral, o desempenho se mostra estável, indicando um **modelo de negócio sólido e bem estruturado.**
 
-### Produtos e Rentabilidade
+### 2. Produtos e Rentabilidade
 
-- Algumas subcategorias concentram grande parte do faturamento da empresa, com destaque para **Camcorders, Projectors and Screens e Washers and Dryers**, que aparecem entre os produtos que mais geram receita.
+- A receita se concentra em algumas categorias e produtos-chave, que funcionam como os principais motores de vendas.
 
-- Em nível mais amplo, as categorias **Home Appliances e Computers** lideram o faturamento total, reforçando seu papel como os principais motores de vendas da Contoso.
+- Também fica claro que **vender mais nem sempre significa lucrar mais**, já que há diferenças relevantes entre volume e margem.
 
-- A análise também mostra que **alto volume de vendas nem sempre significa maior rentabilidade.** Alguns produtos vendem muito, mas possuem margens menores, enquanto outros apresentam menor volume de vendas, porém maior lucratividade. Isso sugere que fatores como custos de produção, posicionamento de mercado e estratégia de preços influenciam fortemente o desempenho financeiro dos produtos.
-
-- Em relação às marcas, a **Contoso se destaca pelo grande volume de vendas**, demonstrando forte presença no mercado. Por outro lado, marcas como Fabrikam e A. Datum apresentam margens de lucro mais elevadas, indicando maior eficiência ou posicionamento mais estratégico.
+- As marcas apresentam desempenhos distintos, refletindo **estratégias e posicionamentos diferentes no mercado.**
 
 ### Análise regional e por Lojas
 
-- A **América do Norte domina o desempenho global**, concentrando o maior volume de vendas, receita e lucro. Esse resultado é fortemente impulsionado pelos **Estados Unidos**, que representam a maior parte das vendas da empresa.
+- Existe uma **forte concentração de receita na América do Norte, principalmente nos Estados Unidos.**
 
-- Apesar de a margem de lucro ser semelhante entre os países (em torno de 56%), existe grande diferença no volume de vendas. Os **Estados Unidos vendem cerca de quatro vezes mais produtos que o segundo maior mercado, demonstrando forte concentração geográfica da demanda.**
+- Outras regiões começam a ganhar espaço, mas ainda com **desafios em termos de rentabilidade.**
 
-- Entre as **lojas, algumas apresentam alta rentabilidade mesmo com menor volume de vendas**, indicando que nem sempre as unidades mais lucrativas são as que geram maior faturamento.
-
-- Observando a evolução ao longo do tempo, percebe-se **queda nas vendas na América do Norte e na Europa**, enquanto a **Ásia apresenta crescimento em receita e lucro, porém com redução na margem**, possivelmente devido ao aumento de custos.
+- Entre as lojas, nem sempre as que mais vendem são as mais lucrativas, o que reforça **diferenças de eficiência operacional.**
 
 ### Perfil de Clientes
 
-*Para analisar o perfil dos clientes, dividi estes em diversas segmentações (grupos) e realizei as análises cruzando as vendas onlines (cuja tabela possui uma ligação com a tabela dos clientes) com as segmentações de clientes:*
-
 - A análise do perfil de clientes revela **diferenças claras no comportamento de compra entre os segmentos.**
 
-- Clientes **Pessoa física** apresentam ticket médio maior que empresas, enquanto entre os consumidores individuais, **mulheres** possuem ticket médio ligeiramente superior ao dos homens.
+- O **faturamento** é puxado, principalmente, por clientes com **maior poder de compra e ticket médio mais alto.**
 
-- Em termos socioeconômicos, clientes de **renda média e média alta**, bem como **profissionais em cargos de gestão ou ocupações especializadas**, apresentam maior valor médio por compra, indicando maior poder de consumo.
-
-- Já em relação à **receita total**, alguns segmentos se destacam pelo alto volume de compras, enquanto outros realizam menos transações, mas com maior valor por compra, gerando receita e lucro relevantes mesmo com menor frequência.
-
-Esses resultados mostram que diferentes perfis de clientes contribuem para o desempenho do negócio de maneiras distintas, seja pelo volume de compras ou pelo maior valor gasto em cada transação.
+- Cada segmento contribui de forma diferente, **combinando volume de compras e valor por transação.**
 
 ---
 
