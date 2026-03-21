@@ -106,6 +106,14 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 ---
 
+## Tecnologias e Ferramentas utilizadas
+
+| Tecnologia/Ferramenta | Finalidade                                                                            |
+|:---------------------:|:-------------------------------------------------------------------------------------:|
+| SQL Server            | Análise e Manipulação de dados, Criação de consultas SQL e Indicadores de performance |
+
+---
+
 ## Conclusão
 
 Este projeto demonstra como o **domínio de SQL e a aplicação de técnicas analíticas** permitem construir uma visão completa do desempenho empresarial — conectando dados operacionais a análises estratégicas.
