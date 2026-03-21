@@ -1,6 +1,6 @@
 # Case 1 - Análise Estratégica de Vendas (SQL)
 
-## Introdução
+# Introdução
 
 Este projeto tem como objetivo analisar o **desempenho comercial e financeiro** da empresa Contoso Retail, avaliando receita, custos, lucratividade, comportamento de clientes e performance regional. A análise foi conduzida integralmente em **SQL (SQL Server)**, explorando tabelas fato e dimensões para consolidação e interpretação dos dados.
 
@@ -8,13 +8,13 @@ O foco do projeto foi aplicar **lógica analítica e domínio em SQL** para extr
 
 ---
 
-## Problema de Negócio
+# Problema de Negócio
 
 A Contoso Retail, empresa do setor de varejo com atuação em diferentes regiões, vinha registrando crescimento em vendas, porém precisava entender com maior precisão quais **produtos, segmentos e mercados eram responsáveis pela geração efetiva de lucro.** O objetivo era transformar o grande volume de dados transacionais do Data Warehouse em informações estratégicas para direcionar decisões comerciais.
 
 Para isso, buscou-se responder às seguintes questões:
 
-### 1. Desempenho Geral
+## 1. Desempenho Geral
 
 - Qual é a receita total, o custo total, o lucro bruto e a sua margem da empresa?
 
@@ -24,7 +24,7 @@ Para isso, buscou-se responder às seguintes questões:
 
 - Existem evidências de sazonalidade nas vendas?
 
-### 2. Produtos e Rentabilidade
+## 2. Produtos e Rentabilidade
 
 - Quais categorias e subcategorias mais contribuem para a receita total?
 
@@ -34,7 +34,7 @@ Para isso, buscou-se responder às seguintes questões:
 
 - Como a performance varia entre marcas e linhas de produto?
 
-### 3. Análise Regional e por Lojas
+## 3. Análise Regional e por Lojas
 
 - Quais países e continentes concentram maior faturamento e lucro?
 
@@ -44,7 +44,7 @@ Para isso, buscou-se responder às seguintes questões:
 
 - Como o desempenho regional evolui ao longo do tempo?
 
-### 4. Perfil de Clientes
+## 4. Perfil de Clientes
 
 - Quais segmentos de clientes geram maior ticket médio?
 
