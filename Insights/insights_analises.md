@@ -3,9 +3,11 @@
 Este documento apresenta os principais **insights** obtidos a partir da análise das vendas da empresa de varejo Contoso.  
 A análise foi realizada utilizando **SQL**, resultando em **descobertas estratégicas** para compreender melhor o desempenho do negócio, o comportamento de vendas de produtos, a distribuição regional das vendas e as características dos diferentes perfis de clientes.
 
-## 1. Desempenho geral 
+---
 
-### Receita (Faturamento), custo, lucro e margem
+# 1. Desempenho geral 
+
+## Receita (Faturamento), custo, lucro e margem
 
 | Indicador       | Valor (US$)       |
 |:----------------|------------------:|
@@ -17,7 +19,7 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 - **Margem = 56.78%** -> Indica que, a cada US$ 100 faturados, US$ 56.78 viram lucro.
 - Rentabilidade **excelente**.
 
-### Receita e Lucro ao longo do tempo 
+## Receita e Lucro ao longo do tempo 
 #### Anual
 
 | Ano  | Faturamento (US$) | Custo (US$)      | Lucro (US$)      | Margem (%) |
@@ -49,7 +51,7 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 - **2008:** Os resultados passam a oscilar mais ao longo do ano, com sinais de enfraquecimento após o primeiro semestre. Isso sugere um período de maior instabilidade no desempenho. Esse comportamento pode indicar um ambiente econômico menos favorável ou mudanças no mercado, reforçando a importância de monitoramento contínuo de custos e desempenho operacional ao longo do ano.
 - **2009:** O faturamento e o lucro ficam em um nível mais baixo em relação aos anos anteriores, mas os resultados se mostram mais estáveis ao longo dos meses, indicando um possível período de ajuste após as oscilações anteriores.
 
-### Comportamento da margem de lucro
+## Comportamento da margem de lucro
 
 | Indicador/Ano | Janeiro | Fevereiro | Março  | Abril  | Maio   | Junho  | Julho  | Agosto | Setembro | Outubro | Novembro | Dezembro |
 |:--------------|--------:|----------:|-------:|-------:|-------:|-------:|-------:|-------:|---------:|--------:|---------:|---------:|
@@ -61,9 +63,11 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 - **2008:** A margem apresenta um crescimento gradual até meados do ano, atingindo seu ponto mais alto por volta de junho. A partir daí, passa a oscilar nos meses seguintes, mantendo-se ainda em um nível elevado, o que indica estabilidade na rentabilidade mesmo com variações no desempenho ao longo do segundo semestre.
 - **2009:** Assim como em 2008, a margem cresce até aproximadamente junho. A partir de julho passa a oscilar, mas de forma um pouco mais moderada que no ano anterior durante boa parte do segundo semestre. Apesar de uma queda mais forte no final do ano, os níveis de margem ainda permanecem relativamente altos. sugerindo manutenção de uma boa eficiência operacional ao longo do ano.
 
-### Sazonalidade nas vendas
+## Sazonalidade nas vendas
 
 - As vendas (receitas e lucros) apresentam uma clara **diminuição** a partir do ano de 2007. Em ambos os anos, as vendas aumentam após os 4 primeiros meses, em média, com pequenas flutuações nos meses subsequentes. Esse movimento pode indicar um efeito de **sazonalidade nas vendas**, possivelmente relacionado a mudanças naturais na demanda, períodos promocionais, datas comerciais importantes ou variações no ritmo de consumo ao longo do ano.
+
+---
 
 ## 2. Produtos e Rentabilidade
 
@@ -359,7 +363,7 @@ Isso indica que diferentes perfis contribuem de maneiras distintas: alguns pelo 
 - **Segmentos de menor ticket médio:** Implementar estratégias para aumentar o valor por compra, como combos, recomendações personalizadas ou incentivos.
 - **Uso de segmentação:** Direcionar campanhas e ofertas com base nos perfis identificados, equilibrando ações entre ganho de escala (em volume) e aumento de valor (em ticket médio).
 
-## Conclusão estratégica
+# Conclusão estratégica
 
 De forma geral, a análise indica um negócio **altamente rentável e eficiente**, com margens elevadas ao longo do período, apesar de uma leve queda no faturamento. A receita está concentrada em produtos estratégicos, mercados específicos e segmentos de clientes com maior poder de compra, que também apresentam tickets médios mais altos.
 
