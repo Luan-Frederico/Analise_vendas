@@ -69,9 +69,9 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 
 ---
 
-## 2. Produtos e Rentabilidade
+# 2. Produtos e Rentabilidade
 
-### Receitas por Categorias e subcategorias
+## Receitas por Categorias e subcategorias
 #### Subcategorias
 
 | Subcategoria           | Faturamento (US$) | Lucro (US$)    |
@@ -102,7 +102,7 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 - As categorias com maior faturamento são **Eletrodomésticos** (Home Appliances) e **Computadores** (Computers), ultrapassando US$ 3 bilhões. Essas categorias concentram a maior parte da receita e também apresentam os maiores lucros, indicando seu papel central no desempenho da empresa.
 - Em contraste, categorias como **Audio** e **Games and Toys** apresentam faturamento e lucro bem menores, sugerindo menor participação no resultado total.
 
-### Margem e Produtos
+## Margem e Produtos
 
 | Nome do Produto                               | Faturamento (US$) | Margem de lucro (%) |
 |:----------------------------------------------| -----------------:| -------------------:|
@@ -117,7 +117,7 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 - O produto com maior margem de lucro é o **WWI Screen 125in M1611 White**, com 66,85%, mesmo sem gerar muita receita. Além dele, outros produtos também apresentam margens próximas de 66%, indicando a presença de itens com alta rentabilidade na empresa.
 - Por outro lado, há produtos com margens menores (em torno de 47%), como **Litware Washer & Dryer 15.5in E150 Silver**, que ainda assim apresentam alto faturamento, inclusive superior ao de produtos mais rentáveis. Isso mostra um contraste importante entre receita e margem, sugerindo que nem sempre os produtos que mais faturam são os mais lucrativos em termos relativos.
 
-### Produtos com alto volume de vendas, mas baixa rentabilidade
+## Produtos com alto volume de vendas, mas baixa rentabilidade
 
 | Nome do Produto                                         | Quantidade vendida | Margem de lucro (%) | Faturamento (US$) |
 |:--------------------------------------------------------| ------------------:| -------------------:| -----------------:|
@@ -133,7 +133,7 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 - Já produtos como lavadoras e secadoras (Washer & Dryers) aparecem com baixo volume de vendas, mas com margens mais altas, ainda assim mantendo um faturamento relevante.
 - No geral, **há um contraste claro entre volume e margem:** produtos que vendem mais tendem a ser menos rentáveis proporcionalmente, enquanto os mais lucrativos vendem menos.
 
-### Marcas e Performance
+## Marcas e Performance
 
 | Marca                | Quantidade vendida | Faturamento (US$) | Lucro (US$)      | Margem de lucro (%) |
 |:---------------------|-------------------:|------------------:|-----------------:|--------------------:|
@@ -152,12 +152,12 @@ A análise foi realizada utilizando **SQL**, resultando em **descobertas estrat�
 - A **performance das marcas varia entre volume de vendas e eficiência**. A **Contoso** lidera em volume e faturamento, com uma margem próxima da média, o que reforça sua força em escala. Já **Fabrikam**, **A. Datum** e **Proseware** se destacam pelas margens mais altas, indicando maior eficiência e um posicionamento mais estratégico. Por outro lado, marcas como **Southridge Video** e **Tailspin Toys** até têm volumes relevantes, mas geram menos receita proporcionalmente, o que pode indicar menor valor agregado.
 - No geral, fica claro um **contraste entre escala e rentabilidade**, com diferentes estratégias dentro do portfólio.
 
-### Recomendação estratégica
-#### Análise geral:
+## Recomendação estratégica
+### Análise geral:
 
 O portfólio apresenta concentração de receita em categorias como Home Appliances, Computers e subcategorias como Camcorders e Projectors and Screens, além de forte dependência de volume em marcas como Contoso. Ao mesmo tempo, marcas como A. Datum, Fabrikam e Proseware se destacam por maior margem, enquanto alguns produtos de alto volume operam com menor rentabilidade.
 
-#### Recomendações:
+### Recomendações:
 
 - **Contoso** (alto volume, margem média): Testar ajustes de preço e redução de custos, já que pequenos ganhos de margem podem gerar grande impacto no lucro total.
 - **A. Datum, Fabrikam e Proseware** (alta margem): Ampliar investimento em marketing e distribuição para ganhar escala, mantendo o posicionamento premium.
@@ -167,9 +167,11 @@ O portfólio apresenta concentração de receita em categorias como Home Applian
 - **Produtos de alta margem e baixo volume** (ex: Washer & Dryer premium): Investir em marketing, posicionamento e possíveis bundles para aumentar vendas.
 - **Audio, Games and Toys** (categorias de baixa relevância): Reavaliar — reduzir investimentos ou buscar reposicionamento para melhorar desempenho.
 
-## 3. Análise regional e por Lojas
+---
 
-### Faturamento e Lucro por Região
+# 3. Análise regional e por Lojas
+
+## Faturamento e Lucro por Região
 #### Continente
 
 | Continente    | Faturamento (US$) | Lucro (US$)      | Margem de lucro (%) |
@@ -196,7 +198,7 @@ O portfólio apresenta concentração de receita em categorias como Home Applian
 - Os **Estados Unidos** se destacam como o principal mercado, concentrando o maior faturamento e o maior lucro, além de manter uma margem elevada e muito próxima da maior observada, que possui a maior margem entre todos os países, com 56.95%. Esse desempenho explica a liderança da América do Norte, mostrando como os resultados estão fortemente concentrados no país.
 - Além disso, os três primeiros países — **Estados Unidos, China e Alemanha** — são justamente os que mais contribuem para o faturamento total e lucratividade, liderando não só nos seus respectivos continentes, mas também no cenário global, indicando uma forte concentração dos resultados em poucos mercados.
 
-### Margem por Lojas
+## Margem por Lojas
 
 | Loja                               | Faturamento (US$) | Lucro (US$)      | Margem de lucro (%) |
 |:-----------------------------------| -----------------:| ----------------:| -------------------:|
@@ -217,7 +219,7 @@ O portfólio apresenta concentração de receita em categorias como Home Applian
 - Em contraste, lojas como a **Contoso Catalog Store** e as **lojas online** para os três continetes concentram grande parte do faturamento e do lucro, mesmo com margens um pouco menores.
 - No geral, há um padrão claro: **lojas menores tendem a ter margens ligeiramente mais altas**, enquanto **canais de venda maiores operam com maior volume e sustentam o resultado total**, mesmo com margens um pouco mais baixas.
 
-### Regiões com alto volume de vendas, mas margem reduzida
+## Regiões com alto volume de vendas, mas margem reduzida
 #### Continente
 
 | Continente    | Quantidade vendida | Margem de lucro (%) |
@@ -247,7 +249,7 @@ O portfólio apresenta concentração de receita em categorias como Home Applian
 - Por outro lado, o que realmente muda de forma significativa é o **volume de vendas**. Os **Estados Unidos** se destacam muito, com uma quantidade vendida cerca de quatro vezes maior que a da China, que ocupa a segunda posição.
 - Isso mostra que, embora as margens sejam parecidas entre os países, o impacto no resultado total vem principalmente do volume. Ou seja, países como os Estados Unidos acabam sendo muito mais relevantes para o faturamento geral, mesmo sem ter uma margem tão diferente dos demais.
 
-### Desempenho regional ao longo do tempo
+## Desempenho regional ao longo do tempo
 #### América do Norte
 
 | Ano  | Faturamento (US$) | Lucro (US$)      | Margem de lucro (%) |
@@ -278,13 +280,13 @@ O portfólio apresenta concentração de receita em categorias como Home Applian
 
 - Complementando com uma análise mensal, **América do Norte** registrou aumento geral nas receitas e lucros, e instabilidade na margem ao longo dos anos. A **Ásia** registrou aumento instável nas receitas e lucros, com uma menor instabilidade que o anterior. Por fim, a **Europa** apresentou bastante instabilidade na receita, com aumentos e diminuições bruscas, o lucro tende a diminuir aos poucos com leves oscilações, e a margem permanece com variações mais constantes.
 
-### Recomendação estratégica
-#### Análise geral:
+## Recomendação estratégica
+### Análise geral:
 
 Os resultados indicam uma forte concentração de receita e lucro na América do Norte, principalmente nos Estados Unidos, que se destacam como principal mercado da operação. Em paralelo, observa-se que as margens de lucro são bastante estáveis entre regiões e países, sugerindo consistência na estrutura de custos e precificação.  
 Além disso, há diferenças importantes no comportamento das regiões: a Ásia apresenta crescimento em volume, enquanto América do Norte e Europa mostram queda no faturamento ao longo do tempo, mesmo mantendo margens estáveis. Isso reforça que o desempenho está mais relacionado ao volume de vendas do que à eficiência operacional.
 
-#### Recomendações:
+### Recomendações:
 
 - **Mercado dos Estados Unidos:** Priorizar ações de manutenção e otimização, já que o país concentra grande parte do resultado. Pequenas melhorias podem gerar impacto relevante no total.
 - **China e Ásia** (crescimento com menor margem): Avaliar oportunidades de melhoria de rentabilidade, seja via ajuste de preços, redução de custos ou revisão do mix de produtos.
@@ -293,9 +295,11 @@ Além disso, há diferenças importantes no comportamento das regiões: a Ásia 
 - **Países com menor volume e boa margem:** Explorar estratégias para ganho de escala, já que apresentam eficiência, mas baixo impacto no resultado total.
 - **Canais de alto volume** (online e catálogo): Melhorar eficiência operacional, pois são responsáveis por grande parte do faturamento, mesmo com margens ligeiramente menores.
 
-## 4.Perfil de Clientes 
+---
 
-### Segmentos de clientes por Ticket médio
+# 4. Perfil de Clientes 
+
+## Segmentos de clientes por Ticket médio
 
 Para analisar os perfis dos clientes, dividi estes em várias segmentações/grupos demográficos e selecionei as mais relevantes para o problema de negócio, que são: Gênero, Renda, Idade e Ocupação.
 
@@ -334,7 +338,7 @@ Os dados mostram que o **ticket médio está fortemente associado ao perfil soci
 
 Em síntese, o **ticket médio é principalmente impulsionado por renda, idade e ocupação**, sendo mais alto entre clientes mais maduros e com maior poder aquisitivo.
 
-### Receita por grupos demográficos
+## Receita por grupos demográficos
 
 A **receita apresenta uma concentração clara em alguns grupos específicos.**
 
@@ -345,23 +349,25 @@ A **receita apresenta uma concentração clara em alguns grupos específicos.**
 
 Esses grupos representam os principais responsáveis pelo faturamento total observado.
 
-### Comportamento de compra entre perfis de clientes
+## Comportamento de compra entre perfis de clientes
 
 - Observa-se **diferença no comportamento de compra entre os perfis de clientes.** De modo geral, características demográficas e socioeconômicas como renda, ocupação, gênero e faixa etária estão associadas a variações no número de compras, receita, lucro e ticket médio. Enquanto alguns segmentos apresentam alto volume de compras, outros realizam menos transações, porém com maior valor médio, resultando em receita e lucro elevados mesmo com menor frequência de compra. Esses padrões indicam que **diferentes perfis de clientes contribuem de maneiras distintas para o desempenho do negócio, seja pelo volume de compras ou pelo maior valor gasto por transação.**
 
-### Recomendação estratégica
-#### Análise geral:
+## Recomendação estratégica
+### Análise geral:
 
 Os resultados mostram que o desempenho do negócio varia entre os perfis de clientes. De forma geral, segmentos com **maior renda, maior qualificação profissional e idade mais elevada concentram os maiores tickets médios**, enquanto grupos mais amplos da base são responsáveis pela maior parte da receita, lucro e volume de compras.
 Isso indica que diferentes perfis contribuem de maneiras distintas: alguns pelo alto valor por transação, outros pelo impacto no volume e faturamento total.
 
-#### Recomendações:
+### Recomendações:
 
 - **Segmentos de maior ticket médio:** Explorar estratégias de upsell e produtos de maior valor agregado, maximizando receita por cliente.
 - **Grupos com maior faturamento:** Priorizar retenção e fidelização, já que representam a base principal de receita do negócio.
 - **Clientes 55+:** Desenvolver ações direcionadas, pois combinam alto ticket médio com relevância em receita.
 - **Segmentos de menor ticket médio:** Implementar estratégias para aumentar o valor por compra, como combos, recomendações personalizadas ou incentivos.
 - **Uso de segmentação:** Direcionar campanhas e ofertas com base nos perfis identificados, equilibrando ações entre ganho de escala (em volume) e aumento de valor (em ticket médio).
+
+---
 
 # Conclusão estratégica
 
