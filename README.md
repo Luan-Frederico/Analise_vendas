@@ -52,6 +52,8 @@ Para isso, buscou-se responder às seguintes questões:
 
 - Existe diferença de comportamento de compra entre perfis de clientes?
 
+---
+
 ## Estrutura analítica (SQL)
 
 Toda a análise foi conduzida em *SQL Server*, utilizando a base Contoso:
@@ -67,6 +69,8 @@ Toda a análise foi conduzida em *SQL Server*, utilizando a base Contoso:
 - **CASE WHEN**: Para segmentações e classificações analíticas
 
 Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com cálculos estatísticos e operacionais diretamente via **SQL**, sem dependência de outras linguagens.
+
+---
 
 ## Resultados: Resumo das Análises e Principais Insights
 
@@ -109,6 +113,8 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 - Já em relação à **receita total**, alguns segmentos se destacam pelo alto volume de compras, enquanto outros realizam menos transações, mas com maior valor por compra, gerando receita e lucro relevantes mesmo com menor frequência.
 
 Esses resultados mostram que diferentes perfis de clientes contribuem para o desempenho do negócio de maneiras distintas, seja pelo volume de compras ou pelo maior valor gasto em cada transação.
+
+---
 
 ## Conclusão
 
