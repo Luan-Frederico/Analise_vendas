@@ -54,7 +54,7 @@ Para isso, buscou-se responder às seguintes questões:
 
 ---
 
-## Estrutura analítica (SQL)
+# Estrutura analítica (SQL)
 
 Toda a análise foi conduzida em *SQL Server*, utilizando a base Contoso:
 
@@ -72,15 +72,15 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 ---
 
-## Resultados: Resumo das Análises e Principais Insights
+# Resultados: Resumo das Análises e Principais Insights
 
-### 1. Desempenho geral
+## 1. Desempenho geral
 
 - A Contoso manteve **alta rentabilidade** ao longo do período, com margens acima de 55%, mesmo com uma leve queda no faturamento após 2007.
 
 - No geral, o desempenho se mostra estável, indicando um **modelo de negócio sólido e bem estruturado.**
 
-### 2. Produtos e Rentabilidade
+## 2. Produtos e Rentabilidade
 
 - A receita se concentra em algumas categorias e produtos-chave, que funcionam como os principais motores de vendas.
 
@@ -88,7 +88,7 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 - As marcas apresentam desempenhos distintos, refletindo **estratégias e posicionamentos diferentes no mercado.**
 
-### 3. Análise regional e por Lojas
+## 3. Análise regional e por Lojas
 
 - Existe uma **forte concentração de receita na América do Norte, principalmente nos Estados Unidos.**
 
@@ -96,7 +96,7 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 - Entre as lojas, nem sempre as que mais vendem são as mais lucrativas, o que reforça **diferenças de eficiência operacional.**
 
-### 4. Perfil de Clientes
+## 4. Perfil de Clientes
 
 - A análise do perfil de clientes revela **diferenças claras no comportamento de compra entre os segmentos.**
 
@@ -106,7 +106,7 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 ---
 
-## Tecnologias e Ferramentas utilizadas
+# Tecnologias e Ferramentas utilizadas
 
 | Tecnologia/Ferramenta | Finalidade                                                                            |
 |:----------------------|:--------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 ---
 
-## Conclusão
+# Conclusão
 
 Este projeto demonstra como o **domínio de SQL e a aplicação de técnicas analíticas** permitem construir uma visão completa do desempenho empresarial — conectando dados operacionais a análises estratégicas.
 
