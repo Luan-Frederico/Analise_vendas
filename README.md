@@ -88,7 +88,7 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 - As marcas apresentam desempenhos distintos, refletindo **estratégias e posicionamentos diferentes no mercado.**
 
-### Análise regional e por Lojas
+### 3. Análise regional e por Lojas
 
 - Existe uma **forte concentração de receita na América do Norte, principalmente nos Estados Unidos.**
 
@@ -96,7 +96,7 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 
 - Entre as lojas, nem sempre as que mais vendem são as mais lucrativas, o que reforça **diferenças de eficiência operacional.**
 
-### Perfil de Clientes
+### 4. Perfil de Clientes
 
 - A análise do perfil de clientes revela **diferenças claras no comportamento de compra entre os segmentos.**
 
@@ -109,7 +109,7 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 ## Tecnologias e Ferramentas utilizadas
 
 | Tecnologia/Ferramenta | Finalidade                                                                            |
-|:---------------------:|:-------------------------------------------------------------------------------------:|
+|:----------------------|:--------------------------------------------------------------------------------------|
 | SQL Server            | Análise e Manipulação de dados, Criação de consultas SQL e Indicadores de performance |
 
 ---
