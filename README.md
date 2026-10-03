@@ -1,4 +1,4 @@
-# Case 1 - Análise Estratégica de Vendas (SQL)
+# Case 1 - Análise Estratégica de Vendas (BI)
 
 # Introdução
 
@@ -61,10 +61,14 @@ A análise foi conduzida em *SQL Server e Power BI Desktop*, utilizando a base C
 - **SQL:**
 
   - **SELECT e WHERE**: Para filtrar e projetar colunas relevantes.
-- **GROUP BY e HAVING**: Para agregações estratégicas.
-- **JOINs**
-- **CTEs**: Para organização modular das consultas
-- **CASE WHEN**: Para segmentações e classificações analíticas
+  - **GROUP BY e HAVING**: Para agregações estratégicas.
+  - **JOINs**
+  - **CTEs**: Para organização modular das consultas
+  - **CASE WHEN**: Para segmentações e classificações analíticas
+
+- **Power BI:**
+
+  - 
 
 Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com cálculos estatísticos e operacionais.
 
