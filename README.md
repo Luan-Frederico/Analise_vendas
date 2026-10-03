@@ -28,12 +28,10 @@ O foco do projeto foi aplicar **lógica analítica e domínio em SQL e Power BI*
 <table align="center" border="0" style="width: 100%; border-collapse: collapse;">
   <tr>
     <td align="center" width="50%">
-      <img src="desempenho_geral_sql.png" alt="Análises de Desempenho Geral em SQL" style="max-width: 100%; height: auto;">
-      <p><sub><b>Consultas Agregadas & Métricas Executivas</b></sub></p>
+      <img src="metricas_desempenho_sql.png" alt="Análises de Desempenho Geral em SQL" style="max-width: 100%; height: auto;">
     </td>
     <td align="center" width="50%">
       <img src="view_sql.png" alt="Criação e Execução de Views em SQL" style="max-width: 100%; height: auto;">
-      <p><sub><b>Modelação de Views para consumo em Power BI</b></sub></p>
     </td>
   </tr>
 </table>
