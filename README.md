@@ -68,7 +68,10 @@ A análise foi conduzida em *SQL Server e Power BI Desktop*, utilizando a base C
 
 - **Power BI:**
 
-  - 
+  - **Power BI:** Construção, Modelagem e Visualização de dados.
+  - **Power Query:** Processos de ETL (Extração, Transformação e Carregamento).
+  - **Modelagem de dados e Relacionamentos:** Arquitetura **Star Schema** com conexões 1:N e integridade referencial.
+  - **DAX (Data Analysis Expressions):** Criação de Métricas e Indicadores de negócio.
 
 Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com cálculos estatísticos e operacionais.
 
