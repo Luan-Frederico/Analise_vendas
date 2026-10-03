@@ -2,9 +2,9 @@
 
 # Introdução
 
-Este projeto tem como objetivo analisar o **desempenho comercial e financeiro** da empresa Contoso Retail, avaliando receita, custos, lucratividade, comportamento de clientes e performance regional. A análise foi conduzida integralmente em **SQL (SQL Server)**, explorando tabelas fato e dimensões para consolidação e interpretação dos dados.
+Este projeto tem como objetivo analisar o **desempenho comercial e financeiro** da empresa norte americana Contoso Retail, avaliando receita, custos, lucratividade, comportamento de clientes e performance regional. A análise foi conduzida em **SQL (SQL Server)** e **Power BI**, explorando tabelas fato e dimensões para consolidação e interpretação dos dados.
 
-O foco do projeto foi aplicar **lógica analítica e domínio em SQL** para extrair insights estratégicos e transformar dados brutos em informações relevantes para apoio à tomada de decisão.
+O foco do projeto foi aplicar **lógica analítica e domínio em SQL e Power BI** para extrair insights estratégicos e transformar dados brutos em informações relevantes para apoio à tomada de decisão.
 
 ---
 
