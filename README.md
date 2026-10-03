@@ -84,6 +84,7 @@ A análise foi conduzida em *SQL Server e Power BI Desktop*, utilizando a base C
   - **JOINs**
   - **CTEs**: Para organização modular das consultas
   - **CASE WHEN**: Para segmentações e classificações analíticas
+  - **Views:** Para criação de consultas salvas como tabelas virtuais
 
 - **Power BI:**
 
