@@ -54,21 +54,19 @@ Para isso, buscou-se responder às seguintes questões:
 
 ---
 
-# Estrutura analítica (SQL)
+# Estrutura analítica
 
-Toda a análise foi conduzida em *SQL Server*, utilizando a base Contoso:
+A análise foi conduzida em *SQL Server e Power BI Desktop*, utilizando a base Contoso:
 
-- **SELECT e WHERE**: Para filtrar e projetar colunas relevantes.
+- **SQL:**
 
+  - **SELECT e WHERE**: Para filtrar e projetar colunas relevantes.
 - **GROUP BY e HAVING**: Para agregações estratégicas.
-
-- **JOIN's**
-
-- **CTE's**: Para organização modular das consultas
-
+- **JOINs**
+- **CTEs**: Para organização modular das consultas
 - **CASE WHEN**: Para segmentações e classificações analíticas
 
-Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com cálculos estatísticos e operacionais diretamente via **SQL**, sem dependência de outras linguagens.
+Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com cálculos estatísticos e operacionais.
 
 ---
 
@@ -111,15 +109,17 @@ Essas ferramentas juntas permitiram **análises dinâmicas e segmentadas**, com 
 | Tecnologia/Ferramenta | Finalidade                                                                            |
 |:----------------------|:--------------------------------------------------------------------------------------|
 | SQL Server            | Análise e Manipulação de dados, Criação de consultas SQL e Indicadores de performance |
+| Power BI Desktop      | Análise e Visualização de dados, Construção de dashboards, Criação de métricas e indicadores (KPIs) |
 
 ---
 
 # Conclusão
 
-Este projeto demonstra como o **domínio de SQL e a aplicação de técnicas analíticas** permitem construir uma visão completa do desempenho empresarial — conectando dados operacionais a análises estratégicas.
+Este projeto demonstra como o **domínio de SQL e Power BI e a aplicação de técnicas analíticas** permitem construir uma visão completa do desempenho empresarial — conectando dados operacionais a análises estratégicas.
 
 O foco foi evidenciar **capacidade analítica, domínio técnico e visão de negócio**, transformando dados brutos em informações estruturadas para apoio à tomada de decisão baseada em fatos.
 
+[Acesse o Dashboard Completo interativo aqui](https://app.powerbi.com/view?r=eyJrIjoiNGE3YzM4MmUtODZjYy00YTEwLTk0MTQtM2Q4M2M2YjZhMTVhIiwidCI6ImIzNGMxZDU1LWE0M2UtNGEyMC05MjE4LWExYTQyZWFiMTQ5YSJ9)
 
 
 
