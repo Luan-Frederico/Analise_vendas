@@ -6,6 +6,25 @@ Este projeto tem como objetivo analisar o **desempenho comercial e financeiro** 
 
 O foco do projeto foi aplicar **lógica analítica e domínio em SQL e Power BI** para extrair insights estratégicos e transformar dados brutos em informações relevantes para apoio à tomada de decisão.
 
+<table align="center" border="0" style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td align="center" width="50%">
+      <img src="Dashboard_vendas_pt1.jpeg" alt="Visão Geral - Vendas" style="max-width: 100%; height: auto;">
+    </td>
+    <td align="center" width="50%">
+      <img src="Dashboard_vendas_pt2.jpeg" alt="Análise de Produtos" style="max-width: 100%; height: auto;">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Dashboard_vendas_pt3.jpeg" alt="Devoluções" style="max-width: 100%; height: auto;">
+    </td>
+    <td align="center" width="50%">
+      <img src="Dashboard_vendas_pt4.jpeg" alt="Análise de Clientes" style="max-width: 100%; height: auto;">
+    </td>
+  </tr>
+</table>
+
 ---
 
 # Problema de Negócio
