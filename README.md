@@ -9,18 +9,18 @@ O foco do projeto foi aplicar **lógica analítica e domínio em SQL e Power BI*
 <table align="center" border="0" style="width: 100%; border-collapse: collapse;">
   <tr>
     <td align="center" width="50%">
-      <img src="Dashboard_vendas_pt1.jpeg" alt="Visão Geral - Vendas" style="max-width: 100%; height: auto;">
+      <img src="Dashboard_vendas_pt1.png" alt="Visão Geral - Vendas" style="max-width: 100%; height: auto;">
     </td>
     <td align="center" width="50%">
-      <img src="Dashboard_vendas_pt2.jpeg" alt="Análise de Produtos" style="max-width: 100%; height: auto;">
+      <img src="Dashboard_vendas_pt2.png" alt="Análise de Produtos" style="max-width: 100%; height: auto;">
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="Dashboard_vendas_pt3.jpeg" alt="Devoluções" style="max-width: 100%; height: auto;">
+      <img src="Dashboard_vendas_pt3.png" alt="Devoluções" style="max-width: 100%; height: auto;">
     </td>
     <td align="center" width="50%">
-      <img src="Dashboard_vendas_pt4.jpeg" alt="Análise de Clientes" style="max-width: 100%; height: auto;">
+      <img src="Dashboard_vendas_pt4.png" alt="Análise de Clientes" style="max-width: 100%; height: auto;">
     </td>
   </tr>
 </table>
